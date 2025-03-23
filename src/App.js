@@ -1,10 +1,15 @@
 import React from "react";
-import Header from "./Components/Header";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import HomeScreen from "./Screen/HomeScreen";
 
 function App() {
   return (
     <>
-      <Header />
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<HomeScreen />} />
+        </Routes>
+      </BrowserRouter>
     </>
   );
 }
