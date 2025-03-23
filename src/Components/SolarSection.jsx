@@ -1,11 +1,14 @@
-import React from 'react'
+import React from "react";
+import { Container } from "react-bootstrap";
 
 const SolarSection = () => {
   return (
-    <div>
+    <>
+      <Container className="d-flex flex-row justify-content-center">
       
-    </div>
-  )
-}
+      </Container>
+    </>
+  );
+};
 
-export default SolarSection
+export default SolarSection;
