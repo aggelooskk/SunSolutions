@@ -1,15 +1,15 @@
 import React from "react";
-import { Navbar, Nav, Offcanvas } from "react-bootstrap";
+import { Container, Navbar, Nav, Offcanvas } from "react-bootstrap";
 import panels from "../assets/panels.png";
 
 const Header = () => {
   return (
-    <div className="relative h-screen w-screen">
-      <div
+    <Container className="relative h-screen w-screen">
+      <Container
         className="absolute inset-0 bg-cover bg-center"
         style={{ backgroundImage: `url(${panels})`, height: "100vh" }}
-      ></div>
-      <div className="absolute inset-0 bg-black/40"></div>
+      ></Container>
+      <Container className="absolute inset-0 bg-black/40"></Container>
       <Navbar
         expand="lg"
         className="fixed-top m-3 bg-transparent text-white"
@@ -50,7 +50,7 @@ const Header = () => {
           </Offcanvas.Body>
         </Offcanvas>
       </Navbar>
-    </div>
+    </Container>
   );
 };
 
