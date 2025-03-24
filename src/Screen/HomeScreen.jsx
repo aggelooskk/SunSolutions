@@ -7,7 +7,7 @@ const HomeScreen = () => {
   return (
     <div>
      <Header />
-     <Container className='d-flex justify-content-center m-5 p-5'>
+     <Container className='d-flex flex-wrap justify-content-center m-5 p-5'>
       <SolarCard />
       <SolarCard />
       <SolarCard />
