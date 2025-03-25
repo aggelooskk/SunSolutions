@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Carousel = () => {
+const SolarCarousel = () => {
   return (
     <div>
       
@@ -8,4 +8,4 @@ const Carousel = () => {
   )
 }
 
-export default Carousel
+export default SolarCarousel
