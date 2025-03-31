@@ -4,6 +4,7 @@ import { Container } from "react-bootstrap";
 import SolarCard from "../Components/SolarCard";
 import SolarCarousel from "../Components/SolarCarousel";
 import Footer from "../Components/Footer";
+import stamps from "../assets/stamps.png";
 
 const HomeScreen = () => {
   return (
@@ -16,6 +17,9 @@ const HomeScreen = () => {
       </Container>
       <Container className="d-flex justify-content-center">
         <SolarCarousel />
+      </Container>
+      <Container className="d-flex justify-content-center m-5">
+        <img src={stamps} alt="stamps" className="w-100"></img>
       </Container>
       <Footer />
     </div>
