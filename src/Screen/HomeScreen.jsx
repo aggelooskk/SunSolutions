@@ -3,6 +3,7 @@ import Header from "../Components/Header";
 import { Container } from "react-bootstrap";
 import SolarCard from "../Components/SolarCard";
 import SolarCarousel from "../Components/SolarCarousel";
+import Footer from "../Components/Footer";
 
 const HomeScreen = () => {
   return (
@@ -16,6 +17,7 @@ const HomeScreen = () => {
       <Container className="d-flex justify-content-center">
         <SolarCarousel />
       </Container>
+      <Footer />
     </div>
   );
 };
