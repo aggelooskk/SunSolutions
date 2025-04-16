@@ -1,6 +1,6 @@
 import React from "react";
 import { Card, Button } from "react-bootstrap";
-import eurostar from "../assets/eurostar.png";
+import eurostar from "../assets/solars/eurostar.png";
 
 const SolarCard = () => {
   return (
