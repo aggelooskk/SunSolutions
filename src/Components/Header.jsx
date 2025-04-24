@@ -1,13 +1,12 @@
 import React from "react";
 import { Container, Navbar, Nav, Offcanvas } from "react-bootstrap";
-import panels from "../assets/panels.png";
 
 const Header = () => {
   return (
     <Container className="relative h-screen w-screen">
       <Container
         className="absolute inset-0 bg-cover bg-center"
-        style={{ backgroundImage: `url(${panels})`, height: "100vh" }}
+        style={{ backgroundImage: `url(/panels.png)`, height: "100vh" }}
       ></Container>
       <Container className="absolute inset-0 bg-black/40"></Container>
       <Navbar

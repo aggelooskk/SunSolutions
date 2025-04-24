@@ -1,6 +1,5 @@
 import React from "react";
 import { Carousel } from "react-bootstrap";
-import eurostar from "../assets/solars/eurostar.png";
 
 const SolarCarousel = () => {
   return (
@@ -8,7 +7,7 @@ const SolarCarousel = () => {
       <Carousel.Item>
         <img
           className="d-block mx-auto"
-          src={eurostar}
+          src="/assets/solars/eco.png"
           alt="Eurostar Panel"
           style={{ width: "100%", height: "400px", objectFit: "cover" }}
         />
