@@ -1,7 +1,7 @@
 import React from "react";
 import { Carousel } from "react-bootstrap";
 
-const SolarCarousel = () => {
+function SolarCarousel() {
   return (
     <Carousel className="w-100 m-5">
       <Carousel.Item>
@@ -16,6 +16,6 @@ const SolarCarousel = () => {
       <Carousel.Item></Carousel.Item>
     </Carousel>
   );
-};
+}
 
 export default SolarCarousel;

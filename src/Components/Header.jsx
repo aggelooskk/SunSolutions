@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Navbar, Nav, Offcanvas } from "react-bootstrap";
 
-const Header = () => {
+function Header() {
   return (
     <Container className="relative h-screen w-screen">
       <Container
@@ -51,6 +51,6 @@ const Header = () => {
       </Navbar>
     </Container>
   );
-};
+}
 
 export default Header;

@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import { FaFacebook, FaGoogle, FaGithub, FaTiktok } from "react-icons/fa";
 
-const Footer = () => {
+function Footer() {
   return (
     <footer className="bg-dark text-light pt-4">
       <Container>
@@ -51,6 +51,6 @@ const Footer = () => {
       </Container>
     </footer>
   );
-};
+}
 
 export default Footer;

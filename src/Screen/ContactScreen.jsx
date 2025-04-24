@@ -1,9 +1,7 @@
-import React from 'react'
+import React from "react";
 
-const ContactScreen = () => {
-  return (
-    <div>ContactScreen</div>
-  )
+function ContactScreen() {
+  return <div>ContactScreen</div>;
 }
 
-export default ContactScreen
+export default ContactScreen;

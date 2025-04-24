@@ -1,7 +1,7 @@
 import React from "react";
 import { Card, Button } from "react-bootstrap";
 
-const SolarCard = ({ name, description, image }) => {
+function SolarCard({ name, description, image }) {
   return (
     <Card className="m-4 rounded-lg border-light" style={{ width: "15rem" }}>
       <Card.Img
@@ -16,6 +16,6 @@ const SolarCard = ({ name, description, image }) => {
       </Card.Body>
     </Card>
   );
-};
+}
 
 export default SolarCard;
