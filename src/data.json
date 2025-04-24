@@ -2,16 +2,16 @@
   {
     "name": "Eurostar Sole",
     "description": "An innovation among solar water heaters, created with high tech engineering and respect for the environment.",
-    "image": "/assets/solars/eurostar.png"
+    "image": "/solars/eurostar.png"
   },
   {
     "name": "Eurostar Fino",
     "description": "The EUROSTAR FINO solar water heater has been designed and manufactured with the main goal of ensuring great performance, reliability and discreet appearance.",
-    "image": "/assets/solars/fino.png"
+    "image": "/solars/fino.png"
   },
   {
     "name": "Eco",
     "description": "The new series of thermosiphon systems ECO, have been designed in order to cope with the demands of any market all over the world specializing in very hot climates without the need for refilling the solar circuit",
-    "image": "/assets/solars/eco.png"
+    "image": "/solars/eco.png"
   }
 ]
