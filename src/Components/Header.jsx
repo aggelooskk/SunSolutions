@@ -23,14 +23,14 @@ function Header() {
         <Navbar.Toggle aria-controls="navbar-nav"></Navbar.Toggle>
         <Navbar.Collapse id="navbar-nav" className="sm:flex justify-end">
           <Nav className="ms-auto">
-            <Nav.Link href="#" className="hover:text-gray-300">
+            <Nav.Link href="/" className="hover:text-gray-300">
               Home
+            </Nav.Link>
+            <Nav.Link href="/contact" className="hover:text-gray-300">
+              Contact
             </Nav.Link>
             <Nav.Link href="#" className="hover:text-gray-300">
               About
-            </Nav.Link>
-            <Nav.Link href="#" className="hover:text-gray-300">
-              Contact
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>
@@ -42,9 +42,9 @@ function Header() {
           </Offcanvas.Header>
           <Offcanvas.Body>
             <Nav className="flex-column">
-              <Nav.Link href="#">Home</Nav.Link>
+              <Nav.Link href="/">Home</Nav.Link>
+              <Nav.Link href="/contact">Contact</Nav.Link>
               <Nav.Link href="#">About</Nav.Link>
-              <Nav.Link href="#">Contact</Nav.Link>
             </Nav>
           </Offcanvas.Body>
         </Offcanvas>
