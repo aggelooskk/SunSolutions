@@ -10,8 +10,10 @@ function SolarCard({ name, description, image }) {
         style={{ width: "70%", height: "50%", margin: "0 auto" }}
       />
       <Card.Body className="d-flex justify-content-center flex-column">
-        <Card.Title>{name}</Card.Title>
-        <Card.Text>{description}</Card.Text>
+        <strong>
+          <Card.Title style={{ fontFamily: "sans-serif" }}>{name}</Card.Title>
+        </strong>
+        <Card.Text style={{ fontFamily: "serif" }}>{description}</Card.Text>
         <Button variant="outline-dark">Learn More</Button>
       </Card.Body>
     </Card>

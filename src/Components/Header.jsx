@@ -20,7 +20,14 @@ function Header() {
         <Navbar
           expand="lg"
           className="m-3 bg-transparent text-white"
-          style={{ position: "absolute", top: 0, left: 0, right: 0, zIndex: 3 }}
+          style={{
+            position: "absolute",
+            top: 0,
+            left: 0,
+            right: 0,
+            zIndex: 3,
+            fontFamily: "monospace",
+          }}
         >
           <Navbar.Brand
             href="/"
