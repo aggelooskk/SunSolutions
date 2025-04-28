@@ -3,16 +3,20 @@ import { Container, Navbar, Nav, Offcanvas } from "react-bootstrap";
 
 function Header() {
   return (
-    <Container className="relative h-screen w-screen">
-      <Container
+    <div className="relative h-screen w-screen">
+      <div
         className="absolute inset-0 bg-cover bg-center"
-        style={{ backgroundImage: `url(/panels.png)`, height: "100vh" }}
-      ></Container>
-      <Container className="absolute inset-0 bg-black/40"></Container>
+        style={{
+          backgroundImage: `url(/panels.png)`,
+          height: "100vh",
+          zIndex: 1,
+        }}
+      ></div>
+      <div className="absolute inset-0 bg-black/40" style={{ zIndex: 2 }}></div>
       <Navbar
         expand="lg"
-        className="fixed-top m-3 bg-transparent text-white"
-        style={{ zIndex: 10 }}
+        className="m-3 bg-transparent text-white"
+        style={{ position: "absolute", top: 0, left: 0, right: 0, zIndex: 3 }}
       >
         <Navbar.Brand
           href="/"
@@ -49,7 +53,7 @@ function Header() {
           </Offcanvas.Body>
         </Offcanvas>
       </Navbar>
-    </Container>
+    </div>
   );
 }
 
