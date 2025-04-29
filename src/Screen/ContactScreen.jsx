@@ -7,7 +7,7 @@ function ContactScreen() {
   return (
     <>
       <NavBar />
-      <Container className="m-5">
+      <Container className="m-5 w-75">
         <h1>Contact Us</h1>
         <Form>
           <Form.Group controlId="formFirstName" className="mb-3">
