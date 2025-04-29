@@ -1,12 +1,12 @@
 import React from "react";
-import Header from "../Components/Header";
+import { Container, Form, Button } from "react-bootstrap";
+import NavBar from "../Components/NavBar";
 import Footer from "../Components/Footer";
-import { Form, Button, Container } from "react-bootstrap";
 
 function ContactScreen() {
   return (
     <>
-      <Header />
+      <NavBar />
       <Container className="m-5">
         <h1>Contact Us</h1>
         <Form>
