@@ -8,37 +8,46 @@ function Footer() {
       <Container>
         <Row>
           <Col md={12} className="text-center m-4">
-            <p>Get connected with us on social networks:</p>
-            <FaFacebook className="mx-2" />
-            <FaGoogle className="mx-2" />
-            <FaTiktok className="mx-2" />
-            <FaGithub className="mx-2" />
+            <p style={{ fontFamily: "monospace" }}>
+              Get connected with us on social networks:
+            </p>
+            <FaFacebook className="mx-2" size={25} />
+            <FaGoogle className="mx-2" size={25} />
+            <FaTiktok className="mx-2" size={25} />
+            <FaGithub className="mx-2" size={25} />
           </Col>
         </Row>
         <Row>
-          <Col md={6} className="">
-            <h5>Sun Solutions & Co.</h5>
-            <p className="w-75">
+          <Col md={6}>
+            <h5 style={{ fontFamily: "monospace" }}>Sun Solutions & Co.</h5>
+            <p className="w-75 rfs-5" style={{ fontFamily: "sans-serif" }}>
               Here you can use rows and columns to organize your footer content.
               Lorem ipsum dolor sit amet, consectetur adipisicing elit.
             </p>
           </Col>
-          <Col md={6} className="">
+          <Col md={6}>
             <Row>
               <Col md={6}>
-                <h5>PRODUCTS</h5>
-                <ul className="list-unstyled">
-                  <li>MDBootstrap</li>
-                  <li>MDWordPress</li>
-                  <li>BrandFlow</li>
-                  <li>Bootstrap Angular</li>
+                <h5 style={{ fontFamily: "monospace" }}>PRODUCTS</h5>
+                <ul
+                  className="list-unstyled"
+                  style={{ fontFamily: "sans-serif" }}
+                >
+                  <li>Eurostar Sole</li>
+                  <li>Eurostar Fino</li>
+                  <li>Eco</li>
                 </ul>
               </Col>
               <Col md={6}>
-                <h5>CONTACT</h5>
-                <p>📍 Athens, Fedriadon 120, 113 64</p>
-                <p>✉️ info@example.com</p>
-                <p>📞 +30 6932462414</p>
+                <h5 style={{ fontFamily: "monospace" }}>CONTACT</h5>
+                <ul
+                  className="list-unstyled m-0"
+                  style={{ fontFamily: "sans-serif" }}
+                >
+                  <li>📍 Athens, Fedriadon 120, 113 64</li>
+                  <li>✉️ info@example.com</li>
+                  <li>📞 +30 6932462414</li>
+                </ul>
               </Col>
             </Row>
           </Col>
