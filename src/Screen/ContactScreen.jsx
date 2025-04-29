@@ -1,36 +1,36 @@
 import React from "react";
 import Header from "../Components/Header";
-import Footer from "../Components/Footer"
+import Footer from "../Components/Footer";
 import { Form, Button, Container } from "react-bootstrap";
 
 function ContactScreen() {
   return (
     <>
-    <Header />
+      <Header />
       <Container className="m-5">
         <h1>Contact Us</h1>
         <Form>
-          <Form.Group controlId="formFirstName" className="mb-3 w-25">
+          <Form.Group controlId="formFirstName" className="mb-3">
             <Form.Label>First Name</Form.Label>
             <Form.Control type="text" placeholder="Enter your first name" />
           </Form.Group>
 
-          <Form.Group controlId="formLastName" className="mb-3 w-25">
+          <Form.Group controlId="formLastName" className="mb-3">
             <Form.Label>Last Name</Form.Label>
             <Form.Control type="text" placeholder="Enter your last name" />
           </Form.Group>
 
-          <Form.Group controlId="formEmail" className="mb-3 w-25">
+          <Form.Group controlId="formEmail" className="mb-3">
             <Form.Label>Email address</Form.Label>
             <Form.Control type="email" placeholder="Enter your email" />
           </Form.Group>
 
-          <Form.Group controlId="formPhoneNumber" className="mb-3 w-25">
+          <Form.Group controlId="formPhoneNumber" className="mb-3">
             <Form.Label>Phone Number</Form.Label>
             <Form.Control type="tel" placeholder="Enter your phone number" />
           </Form.Group>
 
-          <Button variant="primary" type="submit">
+          <Button variant="outline-dark" type="submit">
             Submit
           </Button>
         </Form>
