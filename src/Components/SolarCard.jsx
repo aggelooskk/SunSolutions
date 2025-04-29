@@ -3,7 +3,7 @@ import { Card, Button } from "react-bootstrap";
 
 function SolarCard({ name, description, image }) {
   return (
-    <Card className="m-4 rounded-lg border-light" style={{ width: "15rem" }}>
+    <Card className="m-4 p-2 border-light shadow-sm" style={{ width: "15rem" }}>
       <Card.Img
         variant="top"
         src={image}
