@@ -1,6 +1,6 @@
 import React from "react";
 import NavBar from "../Components/NavBar";
-import Footer from "../components/Footer";
+import Footer from "../Components/Footer"
 
 function ContactScreen() {
   return (

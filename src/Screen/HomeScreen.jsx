@@ -1,7 +1,7 @@
 import React from "react";
-import Header from "../components/Header";
+import Header from "../Components/Header";
 import SolarCard from "../Components/SolarCard";
-import Footer from "../components/Footer";
+import Footer from "../Components/Footer";
 import data from "../data.json";
 
 function HomeScreen() {
