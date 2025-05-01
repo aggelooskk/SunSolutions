@@ -1,16 +1,14 @@
 import React from "react";
-import Header from "../Components/Header";
-import { Container } from "react-bootstrap";
+import Header from "../components/Header";
 import SolarCard from "../Components/SolarCard";
-import SolarCarousel from "../Components/SolarCarousel";
-import Footer from "../Components/Footer";
+import Footer from "../components/Footer";
 import data from "../data.json";
 
 function HomeScreen() {
   return (
     <>
       <Header />
-      <Container className="d-flex flex-wrap justify-content-center m-5 p-5">
+      <section className="flex flex-wrap justify-center gap-6 p-10">
         {data.map((item, index) => (
           <SolarCard
             key={index}
@@ -19,13 +17,14 @@ function HomeScreen() {
             image={item.image}
           />
         ))}
-      </Container>
-      <Container className="d-flex justify-content-center">
-        <SolarCarousel />
-      </Container>
-      <Container className="d-flex justify-content-center m-5">
-        <img src="/stamps.png" alt="stamps" className="w-100" />
-      </Container>
+      </section>
+      <section className="flex justify-center items-center my-10 px-4">
+        <img
+          src="/stamps.png"
+          alt="stamps"
+          className="w-full max-w-6xl rounded-lg shadow-md"
+        />
+      </section>
       <Footer />
     </>
   );
