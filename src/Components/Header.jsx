@@ -1,71 +1,72 @@
-import React from "react";
-import { Navbar, Nav, Offcanvas } from "react-bootstrap";
+import React, { useState } from "react";
+import { Link } from "react-router-dom";
 
 function Header() {
+  const [isOpen, setIsOpen] = useState(false);
+
   return (
-    <>
-      <div className="relative h-screen w-screen">
-        <div
-          className="absolute inset-0 bg-cover bg-center"
-          style={{
-            backgroundImage: `url(/panels.png)`,
-            height: "100vh",
-            zIndex: 1,
-          }}
-        ></div>
-        <div
-          className="absolute inset-0 bg-black/40"
-          style={{ zIndex: 2 }}
-        ></div>
-        <Navbar
-          expand="lg"
-          className="m-3 bg-transparent text-white"
-          style={{
-            position: "absolute",
-            top: 0,
-            left: 0,
-            right: 0,
-            zIndex: 3,
-            fontFamily: "monospace",
-          }}
+    <header className="relative h-screen w-screen">
+      <div
+        className="absolute inset-0 bg-cover bg-center"
+        style={{ backgroundImage: "url('/panels.png')" }}
+      ></div>
+      <div className="absolute inset-0 bg-black bg-opacity-40"></div>
+      <nav className="absolute top-0 left-0 right-0 z-50 p-4 flex justify-between items-center text-white font-mono">
+        <h1 className="text-xl sm:text-2xl font-bold uppercase">
+          Sun Solutions & Co.
+        </h1>
+        <div className="hidden md:flex space-x-6">
+          <Link to="/" className="hover:text-gray-300">
+            Home
+          </Link>
+          <Link to="/contact" className="hover:text-gray-300">
+            Contact
+          </Link>
+          <Link to="/about" className="hover:text-gray-300">
+            About
+          </Link>
+        </div>
+        <button
+          onClick={() => setIsOpen(!isOpen)}
+          className="md:hidden focus:outline-none"
         >
-          <Navbar.Brand
-            href="/"
-            className="text-lg sm:text-2xl font-bold uppercase"
+          <svg
+            className="w-6 h-6 text-white"
+            fill="none"
+            stroke="currentColor"
+            strokeWidth="2"
+            viewBox="0 0 24 24"
           >
-            Sun Solutions & Co.
-          </Navbar.Brand>
-          <Navbar.Toggle aria-controls="navbar-nav"></Navbar.Toggle>
-          <Navbar.Collapse id="navbar-nav" className="sm:flex justify-end">
-            <Nav className="ms-auto">
-              <Nav.Link href="/" className="hover:text-gray-300">
-                Home
-              </Nav.Link>
-              <Nav.Link href="/contact" className="hover:text-gray-300">
-                Contact
-              </Nav.Link>
-              <Nav.Link href="#" className="hover:text-gray-300">
-                About
-              </Nav.Link>
-            </Nav>
-          </Navbar.Collapse>
-          <Offcanvas placement="end">
-            <Offcanvas.Header closeButton>
-              <Offcanvas.Title className="text-lg sm:text-2xl font-bold uppercase">
-                Menu
-              </Offcanvas.Title>
-            </Offcanvas.Header>
-            <Offcanvas.Body>
-              <Nav className="flex-column">
-                <Nav.Link href="/">Home</Nav.Link>
-                <Nav.Link href="/contact">Contact</Nav.Link>
-                <Nav.Link href="#">About</Nav.Link>
-              </Nav>
-            </Offcanvas.Body>
-          </Offcanvas>
-        </Navbar>
-      </div>
-    </>
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              d={isOpen ? "M6 18L18 6M6 6l12 12" : "M4 6h16M4 12h16M4 18h16"}
+            />
+          </svg>
+        </button>
+      </nav>
+      {isOpen && (
+        <div className="absolute top-0 right-0 w-2/3 h-full bg-black bg-opacity-90 text-white z-40 p-6 md:hidden transition duration-300 ease-in-out">
+          <button
+            className="absolute top-4 right-4 text-white text-2xl"
+            onClick={() => setIsOpen(false)}
+          >
+            &times;
+          </button>
+          <div className="mt-12 space-y-4 text-lg">
+            <Link to="/" onClick={() => setIsOpen(false)}>
+              Home
+            </Link>
+            <Link to="/contact" onClick={() => setIsOpen(false)}>
+              Contact
+            </Link>
+            <Link to="/about" onClick={() => setIsOpen(false)}>
+              About
+            </Link>
+          </div>
+        </div>
+      )}
+    </header>
   );
 }
 
