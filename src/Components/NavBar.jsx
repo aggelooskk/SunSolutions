@@ -7,13 +7,13 @@ function NavBar() {
 
   return (
     <>
-      <nav className="flex justify-between items-center p-4 bg-transparent text-white font-mono">
+      <nav className="flex justify-between items-center p-4 bg-transparent text-black shadow-md font-mono">
         <a href="/" className="text-lg sm:text-2xl font-bold uppercase">
           Sun Solutions & Co.
         </a>
         <button
           onClick={toggleMenu}
-          className="sm:hidden block text-white focus:outline-none"
+          className="sm:hidden block text-black focus:outline-none"
         >
           <span className="text-2xl">&#9776;</span>
         </button>
