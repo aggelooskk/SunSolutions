@@ -1,22 +1,15 @@
 import React from "react";
-import { Card, Button } from "react-bootstrap";
 
 function SolarCard({ name, description, image }) {
   return (
-    <Card className="m-4 p-2 border-light shadow-sm" style={{ width: "15rem" }}>
-      <Card.Img
-        variant="top"
-        src={image}
-        style={{ width: "70%", height: "50%", margin: "0 auto" }}
-      />
-      <Card.Body className="d-flex justify-content-center flex-column">
-        <strong>
-          <Card.Title style={{ fontFamily: "sans-serif" }}>{name}</Card.Title>
-        </strong>
-        <Card.Text style={{ fontFamily: "serif" }}>{description}</Card.Text>
-        <Button variant="outline-dark">Learn More</Button>
-      </Card.Body>
-    </Card>
+    <div className="w-60 m-4 p-4 bg-white border border-gray-200 rounded-lg shadow-md flex flex-col items-center text-center">
+      <img src={image} alt={name} className="w-2/3 h-32 object-contain mb-4" />
+      <h3 className="text-lg font-bold font-sans mb-2">{name}</h3>
+      <p className="text-sm font-serif text-gray-600 mb-4">{description}</p>
+      <button className="mt-auto px-4 py-2 border border-gray-800 text-gray-800 hover:bg-gray-800 hover:text-white transition rounded">
+        Learn More
+      </button>
+    </div>
   );
 }
 
