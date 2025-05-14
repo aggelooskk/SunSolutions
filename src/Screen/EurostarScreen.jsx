@@ -1,5 +1,6 @@
 import React from "react";
 import NavBar from "../Components/NavBar";
+import Footer from "../Components/Footer";
 
 function EurostarScreen() {
   return (
@@ -7,7 +8,7 @@ function EurostarScreen() {
       <NavBar />
 
       {/* Header Section */}
-      <div className="flex justify-start items-center h-16 w-2/3 mx-5 my-3 bg-black rounded-lg shadow-lg">
+      <div className="flex justify-start items-center h-16 w-2/3 mx-5 my-6 bg-gray-700 rounded-lg shadow-lg">
         <h1 className="p-3 text-white font-mono text-md">
           Ηλιακοί Θερμοσίφωνες Κανονικού Ύψους
         </h1>
@@ -47,10 +48,8 @@ function EurostarScreen() {
       </div>
 
       {/* Advantages Section */}
-      <div className="flex justify-start items-center h-20 w-2/3 m-5 bg-black rounded-lg shadow-lg">
-        <h1 className="p-3 text-white font-mono text-xl font-bold">
-          Πλεονεκτήματα
-        </h1>
+      <div className="flex justify-start items-center h-20 w-2/3 mx-5 my-3  bg-gray-700 rounded-lg shadow-lg">
+        <h1 className="p-3 text-white font-mono text-md">Πλεονεκτήματα</h1>
       </div>
       <div className="w-2/3 m-5 bg-white rounded-lg shadow-lg p-6 border border-gray-200">
         <ul className="list-disc list-inside text-black space-y-2 ml-2">
@@ -69,8 +68,8 @@ function EurostarScreen() {
       </div>
 
       {/* Technical Specs Section */}
-      <div className="flex justify-start items-center h-20 w-2/3 m-5 bg-black rounded-lg shadow-lg">
-        <h1 className="p-3 text-white font-mono text-xl font-bold">
+      <div className="flex justify-start items-center h-20 w-2/3 mx-5 mt-10  bg-gray-700 rounded-lg shadow-lg">
+        <h1 className="p-3 text-white font-mono text-md">
           Τεχνικά Χαρακτηριστικά Boiler
         </h1>
       </div>
@@ -107,9 +106,11 @@ function EurostarScreen() {
           </li>
         </ol>
       </div>
-      <div className="w-2/3 h-20 m-5 my-8">
-        <img src="/eurostarmod.png" alt="eurostar" />
+      <div className="flex justify-start w-2/3 mx-5 my-7">
+        <img src="/eurostarmod.png" alt="eurostar" className="" />
       </div>
+
+      <Footer />
     </>
   );
 }
