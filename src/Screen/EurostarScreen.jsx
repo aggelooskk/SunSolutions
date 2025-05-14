@@ -107,6 +107,9 @@ function EurostarScreen() {
           </li>
         </ol>
       </div>
+      <div className="w-2/3 h-20 m-5 my-8">
+        <img src="/eurostarmod.png" alt="eurostar" />
+      </div>
     </>
   );
 }
