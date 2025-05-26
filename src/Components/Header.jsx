@@ -9,7 +9,7 @@ function Header() {
       <header className="relative h-screen w-screen">
         <div
           className="absolute inset-0 bg-cover bg-center"
-          style={{ backgroundImage: "url('/panels.png')" }}
+          style={{ backgroundImage: "url('/burjkhalifa.png')" }}
         ></div>
         <div className="absolute inset-0 bg-black bg-opacity-40"></div>
         <nav className="absolute top-0 left-0 right-0 z-50 p-4 flex justify-between items-center text-white font-mono">
