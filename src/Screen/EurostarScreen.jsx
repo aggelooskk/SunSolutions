@@ -1,4 +1,3 @@
-import React from "react";
 import NavBar from "../Components/NavBar";
 import Footer from "../Components/Footer";
 
@@ -8,8 +7,8 @@ function EurostarScreen() {
       <NavBar />
 
       {/* Header Section */}
-      <div className="flex justify-start items-center h-16 w-2/3 mx-5 my-6 bg-gray-700 rounded-lg shadow-lg">
-        <h1 className="p-3 text-white font-mono text-md">
+      <div className="flex justify-start items-center h-14 w-2/3 mx-5 my-6 bg-slate-900 rounded-lg shadow-lg">
+        <h1 className="p-3 text-yellow-400 font-mono text-md ">
           Ηλιακοί Θερμοσίφωνες Κανονικού Ύψους
         </h1>
       </div>
@@ -17,39 +16,39 @@ function EurostarScreen() {
       {/* Description Section */}
       <div className="w-2/3 mx-5 mb-14 bg-white rounded-lg shadow-lg p-6 border border-gray-200">
         <div className="text-black space-y-4">
-          <p>
+          <li>
             Ο ηλιακός θερμοσίφωνας EUROSTAR έχει σχεδιαστεί και κατασκευαστεί με
             κύριο στόχο να εξασφαλίζει μεγάλη απόδοση και διάρκεια ζωής.
-          </p>
-          <p>
+          </li>
+          <li>
             Ο νέος χάλκινος επιλεκτικός συλλέκτης τιτανίου με τον υψηλότερο
             βαθμό απόδοσης, παρέχει συνέχεια καυτό νερό ακόμα και στις
             δυσκολότερες καιρικές συνθήκες. Τα προηγμένα υλικά που
             χρησιμοποιούνται στην κατασκευή του και η προσοχή σε κάθε
             λεπτομέρεια, εξασφαλίζουν την άψογη λειτουργία του για μια ολόκληρη
             ζωή.
-          </p>
-          <p>
+          </li>
+          <li>
             Οι ηλιακοί θερμοσίφωνες EUROSTAR κατασκευάζονται σύμφωνα με το
             διεθνές πρότυπο διασφάλισης ποιότητας ISO 9001-2015 και ελέγχονται
             από το διεθνές πρότυπο ISO/DP9459-2.
-          </p>
-          <p>
+          </li>
+          <li>
             Ο συλλέκτης πιστοποιείται κατά ΕΝ 12975-1-2 για την απόδοσή του και
             για την αξιοπιστία του. Επιπλέον, πιστοποιείται και όλο το σύστημα
             του ηλιακού θερμοσίφωνα κατά το Ευρωπαϊκό πρότυπο ΕΝ 12976-1-2.
-          </p>
-          <p>
+          </li>
+          <li>
             Ο ηλιακός θερμοσίφωνας EUROSTAR, καθώς και οι συλλέκτες του
             ξεχωριστά, έχουν διακριθεί με το Ευρωπαϊκό σήμα ποιότητας Solar
             Keymark.
-          </p>
+          </li>
         </div>
       </div>
 
       {/* Advantages Section */}
-      <div className="flex justify-start items-center h-20 w-2/3 mx-5 my-3  bg-gray-700 rounded-lg shadow-lg">
-        <h1 className="p-3 text-white font-mono text-md">Πλεονεκτήματα</h1>
+      <div className="flex justify-start items-center h-14 w-2/3 mx-5 my-3 bg-slate-900 rounded-lg shadow-lg">
+        <h1 className="p-3 text-yellow-400 font-mono text-md">Πλεονεκτήματα</h1>
       </div>
       <div className="w-2/3 m-5 bg-white rounded-lg shadow-lg p-6 border border-gray-200">
         <ul className="list-disc list-inside text-black space-y-2 ml-2">
@@ -68,8 +67,8 @@ function EurostarScreen() {
       </div>
 
       {/* Technical Specs Section */}
-      <div className="flex justify-start items-center h-20 w-2/3 mx-5 mt-10  bg-gray-700 rounded-lg shadow-lg">
-        <h1 className="p-3 text-white font-mono text-md">
+      <div className="flex justify-start items-center h-14 w-2/3 mx-5 mt-10 bg-slate-900 rounded-lg shadow-lg">
+        <h1 className="p-3 text-yellow-400 font-mono text-md">
           Τεχνικά Χαρακτηριστικά Boiler
         </h1>
       </div>
