@@ -1,41 +1,26 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import images from "../carousel.json";
 
 function SolarCarousel() {
   const [currentIndex, setCurrentIndex] = useState(0);
 
-  const goToPrev = () => {
-    setCurrentIndex((prevIndex) =>
-      prevIndex === 0 ? images.length - 1 : prevIndex - 1
-    );
-  };
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrentIndex((prevIndex) =>
+        prevIndex === images.length - 1 ? 0 : prevIndex + 1
+      );
+    }, 4000);
 
-  const goToNext = () => {
-    setCurrentIndex((prevIndex) =>
-      prevIndex === images.length - 1 ? 0 : prevIndex + 1
-    );
-  };
+    return () => clearInterval(interval);
+  }, []);
 
   return (
-    <div className="relative w-full max-w-3xl mx-auto h-64 sm:h-80 overflow-hidden rounded-2xl shadow-lg">
+    <div className="relative w-full h-96 m-5 rounded-2xl shadow-lg overflow-hidden">
       <img
         src={images[currentIndex].src}
         alt={images[currentIndex].alt}
-        className="w-full h-full object-cover transition duration-500"
+        className="w-full h-full object-cover transition duration-1000 ease-in-out"
       />
-      {/* Arrows */}
-      <button
-        onClick={goToPrev}
-        className="absolute left-0 top-1/2 -translate-y-1/2 bg-black/40 text-white p-2"
-      >
-        &#8592;
-      </button>
-      <button
-        onClick={goToNext}
-        className="absolute right-0 top-1/2 -translate-y-1/2 bg-black/40 text-white p-2"
-      >
-        &#8594;
-      </button>
     </div>
   );
 }
