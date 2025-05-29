@@ -3,6 +3,7 @@ import Header from "../Components/Header";
 import SolarCard from "../Components/SolarCard";
 import Footer from "../Components/Footer";
 import data from "../data.json";
+import SolarCarousel from "../Components/SolarCarousel";
 
 function HomeScreen() {
   return (
@@ -18,6 +19,11 @@ function HomeScreen() {
           />
         ))}
       </section>
+
+      <section className="w-full flex justify-center items-center py-6 px-4 bg-gray-100">
+        <SolarCarousel />
+      </section>
+
       <section className="flex justify-center items-center my-10 px-4">
         <img
           src="/stamps.png"
