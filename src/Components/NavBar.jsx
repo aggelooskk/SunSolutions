@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 
 function NavBar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -7,24 +7,27 @@ function NavBar() {
 
   return (
     <>
-      <nav className="flex justify-between items-center p-4 bg-transparent text-black shadow-md font-mono">
-        <a href="/" className="text-lg sm:text-2xl font-bold uppercase">
+      <nav className="flex justify-between items-center h-20 p-4 bg-gray-900 text-white shadow-md font-mono">
+        <a
+          href="/"
+          className="text-lg sm:text-2xl font-bold uppercase hover:text-yellow-400"
+        >
           Sun Solutions & Co.
         </a>
         <button
           onClick={toggleMenu}
-          className="sm:hidden block text-black focus:outline-none"
+          className="sm:hidden block text-black hover:text-yellow-400 focus:outline-none "
         >
           <span className="text-2xl">&#9776;</span>
         </button>
         <div className="hidden sm:flex space-x-6">
-          <a href="/" className="hover:text-gray-300">
+          <a href="/" className="hover:text-yellow-400">
             Home
           </a>
-          <a href="/contact" className="hover:text-gray-300">
+          <a href="/contact" className="hover:text-yellow-400">
             Contact
           </a>
-          <a href="#" className="hover:text-gray-300">
+          <a href="#" className="hover:text-yellow-400">
             About
           </a>
         </div>
