@@ -16,6 +16,7 @@ function HomeScreen() {
             name={item.name}
             description={item.description}
             image={item.image}
+            route={item.route}
           />
         ))}
       </section>
