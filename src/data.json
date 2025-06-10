@@ -14,6 +14,7 @@
   {
     "name": "Eco",
     "description": "The ECO thermosiphon series is designed for hot climates, with no need to refill the solar circuit",
-    "image": "/solars/eco.png"
+    "image": "/solars/eco.png",
+    "route": "/eco"
   }
 ]
