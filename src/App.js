@@ -3,6 +3,7 @@ import HomeScreen from "./Screen/HomeScreen";
 import ContactScreen from "./Screen/ContactScreen";
 import EurostarScreen from "./Screen/EurostarScreen";
 import FinoScreen from "./Screen/FinoScreen";
+import EcoScreen from "./Screen/EcoScreen";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
           <Route path="/contact" element={<ContactScreen />} />
           <Route path="/eurostar" element={<EurostarScreen />} />
           <Route path="/fino" element={<FinoScreen />} />
+          <Route path="/eco" element={<EcoScreen />} />
         </Routes>
       </BrowserRouter>
     </>
