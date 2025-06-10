@@ -4,6 +4,8 @@ import Footer from "../Components/Footer";
 function EcoScreen() {
   return (
     <>
+      <NavBar />
+
       {/* Iliothermo ECO Section */}
       <div className="flex justify-start items-center h-14 w-2/3 mx-5 mt-10 bg-slate-900 rounded-lg shadow-lg">
         <h1 className="p-3 text-yellow-400 font-mono text-md">
@@ -97,6 +99,24 @@ function EcoScreen() {
           </li>
         </ol>
       </div>
+
+      <div className="flex justify-start w-2/3 mx-5 my-7">
+        <img src="/eco/EcoSpecs.png" alt="" />
+      </div>
+
+      {/* Iliothermo ECO Sizes */}
+      <div className="flex justify-start items-center h-14 w-2/3 mx-5 mt-10 bg-slate-900 rounded-lg shadow-lg">
+        <h1 className="p-3 text-yellow-400 font-mono text-md">Διαστάσεις</h1>
+      </div>
+      <div className="flex justify-start w-2/3 mx-5 my-5">
+        <img src="/eco/EcoSizes.png" alt="" />
+      </div>
+
+      <div className="flex justify-start w-2/3 mx-5 my-7">
+        <img src="/eco/EcoMod.png" alt="" />
+      </div>
+
+      <Footer />
     </>
   );
 }
