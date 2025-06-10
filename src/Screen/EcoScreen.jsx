@@ -6,6 +6,10 @@ function EcoScreen() {
     <>
       <NavBar />
 
+      <div className="flex justify-start items-start m-5">
+        <img className="w-3/4" src="/eco/EcoSolars.png" />
+      </div>
+
       {/* Iliothermo ECO Section */}
       <div className="flex justify-start items-center h-14 w-2/3 mx-5 mt-10 bg-slate-900 rounded-lg shadow-lg">
         <h1 className="p-3 text-yellow-400 font-mono text-md">
