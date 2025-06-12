@@ -5,6 +5,11 @@ function FinoScreen() {
   return (
     <>
       <NavBar />
+
+      <div className="flex justify-center m-5">
+        <img className="w-30 h-30" src="/fino/finoSolars.png" />
+      </div>
+
       <div className="w-2/3 mx-auto md:mx-5">
         {/* Header Section */}
         <div className="flex justify-start items-center h-10 mt-10 rounded-xl hover:bg-slate-900">
