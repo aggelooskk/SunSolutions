@@ -1,55 +1,89 @@
-import React from "react";
+import { useRef } from "react";
+import emailjs from "emailjs-com";
 import NavBar from "../Components/NavBar";
-import Footer from "../Components/Footer"
+import Footer from "../Components/Footer";
 
 function ContactScreen() {
+  const formRef = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_2ywl5bt",
+        "template_ab99g2w",
+        formRef.current,
+        "K6fFr86iu28hvpTE5"
+      )
+      .then(
+        (result) => {
+          alert("Message sent successfully! 📬");
+          formRef.current.reset();
+        },
+        (error) => {
+          console.error("Email send error:", error.text);
+          alert("Something went wrong. Please try again later.");
+        }
+      );
+  };
+
   return (
     <>
       <NavBar />
+      
       <div className="max-w-4xl mx-auto my-6 p-6">
-        <h1 className="text-3xl font-bold mb-6">Contact Us</h1>
-        <form className="space-y-6">
+        <h1 className="text-3xl font-bold mb-6">Επικοινωνία</h1>
+        <form ref={formRef} onSubmit={sendEmail} className="space-y-6">
           <div className="flex flex-col">
             <label htmlFor="firstName" className="font-semibold text-lg mb-2">
-              First Name
+              Όνομα
             </label>
             <input
               type="text"
               id="firstName"
-              placeholder="Enter your first name"
+              name="firstName"
+              required
+              placeholder="Προσθέστε το όνόμα σας"
               className="p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
             />
           </div>
           <div className="flex flex-col">
             <label htmlFor="lastName" className="font-semibold text-lg mb-2">
-              Last Name
+              Επώνυμο
             </label>
             <input
               type="text"
               id="lastName"
-              placeholder="Enter your last name"
+              name="lastName"
+              required
+              placeholder="Προσθέστε το επώνυμο σας"
               className="p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
             />
           </div>
           <div className="flex flex-col">
             <label htmlFor="email" className="font-semibold text-lg mb-2">
-              Email Address
+              Email
             </label>
             <input
               type="email"
               id="email"
-              placeholder="Enter your email"
+              name="email"
+              required
+              placeholder="Πρσθέστε το email σας"
               className="p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
             />
           </div>
           <div className="flex flex-col">
             <label htmlFor="phone" className="font-semibold text-lg mb-2">
-              Phone Number
+              Κινητό Τηλέφωνο
             </label>
             <input
               type="tel"
               id="phone"
-              placeholder="Enter your phone number"
+              name="phone"
+              required
+              placeholder="Προσθέστε το κινητό σας τηλέφωνο"
               className="p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
             />
           </div>
@@ -57,10 +91,11 @@ function ContactScreen() {
             type="submit"
             className="w-full py-3 mt-4 bg-black text-white font-bold rounded-lg hover:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-blue-500"
           >
-            Submit
+            Ολοκλήρωση Αποστολής
           </button>
         </form>
       </div>
+
       <Footer />
     </>
   );
