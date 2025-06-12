@@ -1,5 +1,6 @@
 import { useRef } from "react";
 import emailjs from "emailjs-com";
+import env from "react-dotenv";
 import NavBar from "../Components/NavBar";
 import Footer from "../Components/Footer";
 
@@ -11,10 +12,10 @@ function ContactScreen() {
 
     emailjs
       .sendForm(
-        "service_2ywl5bt",
-        "template_ab99g2w",
+        process.env.REACT_APP_SERVICE_ID,
+        process.env.REACT_APP_TEMPLATE_ID,
         formRef.current,
-        "K6fFr86iu28hvpTE5"
+        process.env.REACT_APP_PUBLIC_KEY
       )
       .then(
         (result) => {
@@ -31,7 +32,7 @@ function ContactScreen() {
   return (
     <>
       <NavBar />
-      
+
       <div className="max-w-4xl mx-auto my-6 p-6">
         <h1 className="text-3xl font-bold mb-6">Επικοινωνία</h1>
         <form ref={formRef} onSubmit={sendEmail} className="space-y-6">
