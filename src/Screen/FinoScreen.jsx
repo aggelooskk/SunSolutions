@@ -7,14 +7,14 @@ function FinoScreen() {
       <NavBar />
 
       {/* Header Section */}
-      <div className="flex justify-start items-center h-14 w-2/3 mx-5 my-6 bg-slate-900 rounded-lg shadow-lg">
+      <div className="flex justify-start items-center h-10 w-2/3 mx-5 mt-10 rounded-xl hover:bg-slate-900">
         <h1 className="p-3 text-yellow-400 font-mono text-md">
           Ηλιακοί Θερμοσίφωνες Χαμηλού Ύψους
         </h1>
       </div>
 
       {/* Description */}
-      <div className="w-2/3 mx-5 mb-14 bg-white rounded-lg shadow-lg p-6 border border-gray-200">
+      <div className="w-2/3 mx-5 mt-2 p-6 shadow-sm bg-white  border-gray-100 hover:scale-105">
         <div className="text-black space-y-4">
           <li>
             Ο ηλιακός θερμοσίφωνας EUROSTAR FINO έχει σχεδιαστεί και
@@ -38,12 +38,12 @@ function FinoScreen() {
       </div>
 
       {/* Boiler Technical Specs */}
-      <div className="flex justify-start items-center h-14 w-2/3 mx-5 mt-10 bg-slate-900 rounded-lg shadow-lg">
+      <div className="flex justify-start items-center h-10 w-2/3 mx-5 mt-10 rounded-xl hover:bg-slate-900">
         <h1 className="p-3 text-yellow-400 font-mono text-md">
           Τεχνικά Χαρακτηριστικά Boiler
         </h1>
       </div>
-      <div className="w-2/3 m-5 bg-white rounded-lg shadow-lg p-6 border border-gray-200">
+      <div className="w-2/3 mx-5 mt-2 p-6 shadow-sm bg-white  border-gray-100 hover:scale-105">
         <ol className="list-decimal list-inside text-black space-y-4 ml-2">
           <li>
             Εξωτερικό περίβλημα από ανοξείδωτο ατσάλι ΙΝΟΧ ή χάλυβα
@@ -72,10 +72,10 @@ function FinoScreen() {
       </div>
 
       {/* Advantages */}
-      <div className="flex justify-start items-center h-14 w-2/3 mx-5 mt-10 bg-slate-900 rounded-lg shadow-lg">
+      <div className="flex justify-start items-center h-10 w-2/3 mx-5 mt-10 rounded-xl hover:bg-slate-900">
         <h1 className="p-3 text-yellow-400 font-mono text-md">Πλεονεκτήματα</h1>
       </div>
-      <div className="w-2/3 m-5 bg-white rounded-lg shadow-lg p-6 border border-gray-200">
+      <div className="w-2/3 mx-5 mt-2 p-6 shadow-sm bg-white  border-gray-100 hover:scale-105">
         <ul className="list-disc list-inside text-black space-y-2 ml-2">
           <li>Απλή εγκατάσταση σε επίπεδη σκεπή σε ελάχιστο χρόνο.</li>
           <li>Συνδέεται και με Καλοριφέρ (προαιρετικά).</li>
@@ -83,12 +83,12 @@ function FinoScreen() {
       </div>
 
       {/* Collector Technical Specs */}
-      <div className="flex justify-start items-center h-14 w-2/3 mx-5 mt-10 bg-slate-900 rounded-lg shadow-lg">
+      <div className="flex justify-start items-center h-10 w-2/3 mx-5 mt-10 rounded-xl hover:bg-slate-900">
         <h1 className="p-3 text-yellow-400 font-mono text-md">
           Τεχνικά Χαρακτηριστικά Ηλιακού Συλλέκτη
         </h1>
       </div>
-      <div className="w-2/3 m-5 bg-white rounded-lg shadow-lg p-6 border border-gray-200">
+      <div className="w-2/3 mx-5 mt-2 p-6 shadow-sm bg-white  border-gray-100 hover:scale-105">
         <ol className="list-decimal list-inside text-black space-y-4 ml-2">
           <li>
             Πλαίσιο από χυτό προφίλ αλουμινίου με ηλεκτροστατική βαφή, χωρίς

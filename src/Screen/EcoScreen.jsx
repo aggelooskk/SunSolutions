@@ -6,19 +6,19 @@ function EcoScreen() {
     <>
       <NavBar />
 
-      <div className="flex justify-start items-start m-5">
-        <img className="w-3/4" src="/eco/EcoSolars.png" />
+      <div className="flex justify-center m-5">
+        <img className="w-30 h-30" src="/eco/EcoSolars.png" />
       </div>
 
       {/* Iliothermo ECO Section */}
-      <div className="flex justify-start items-center h-14 w-2/3 mx-5 mt-10 bg-slate-900 rounded-lg shadow-lg">
+      <div className="flex justify-start items-center h-10 w-2/3 mx-5 mt-10 rounded-xl hover:bg-slate-900">
         <h1 className="p-3 text-yellow-400 font-mono text-md">
           Ηλιακός Θερμοσίφωνας ΗΛΙΟΘΕΡΜΟ ECO
         </h1>
       </div>
 
       {/* Iliothermo ECO Description */}
-      <div className="w-2/3 m-5 bg-white rounded-lg shadow-lg p-6 border border-gray-200">
+      <div className="w-2/3 mx-5 mt-2 p-6 shadow-sm bg-white  border-gray-100 hover:scale-105">
         <div className="text-black space-y-4">
           <p>
             Οι γνωστοί ηλιακοί θερμοσίφωνες “Ηλιόθερμο ECO”, από το 1974,
@@ -34,10 +34,10 @@ function EcoScreen() {
       </div>
 
       {/* Iliothermo ECO Advantages */}
-      <div className="flex justify-start items-center h-14 w-2/3 mx-5 my-3 bg-slate-900 rounded-lg shadow-lg">
+      <div className="flex justify-start items-center h-10 w-2/3 mx-5 mt-10 rounded-xl hover:bg-slate-900">
         <h1 className="p-3 text-yellow-400 font-mono text-md">Πλεονεκτήματα</h1>
       </div>
-      <div className="w-2/3 m-5 bg-white rounded-lg shadow-lg p-6 border border-gray-200">
+      <div className="w-2/3 mx-5 mt-2 p-6 shadow-sm bg-white  border-gray-100 hover:scale-105">
         <ul className="list-disc list-inside text-black space-y-2 ml-2">
           <li>
             Το μόνο με ηλεκτρονικό θερμόμετρο (προαιρετικό) — Σας δείχνει
@@ -58,12 +58,12 @@ function EcoScreen() {
       </div>
 
       {/* Iliothermo ECO Technical Specs */}
-      <div className="flex justify-start items-center h-14 w-2/3 mx-5 mt-10 bg-slate-900 rounded-lg shadow-lg">
+      <div className="flex justify-start items-center h-10 w-2/3 mx-5 mt-10 rounded-xl hover:bg-slate-900">
         <h1 className="p-3 text-yellow-400 font-mono text-md">
           Τεχνικά Χαρακτηριστικά
         </h1>
       </div>
-      <div className="w-2/3 m-5 bg-white rounded-lg shadow-lg p-6 border border-gray-200">
+      <div className="w-2/3 mx-5 mt-2 p-6 shadow-sm bg-white  border-gray-100 hover:scale-105">
         <ol className="list-decimal list-inside text-black space-y-4 ml-2">
           <li>Boiler από ευρωπαϊκό χαλυβδοέλασμα για μεγάλη διάρκεια ζωής.</li>
           <li>Πιστοποιημένο δοχείο σε πίεση 20 bar.</li>
@@ -109,7 +109,7 @@ function EcoScreen() {
       </div>
 
       {/* Iliothermo ECO Sizes */}
-      <div className="flex justify-start items-center h-14 w-2/3 mx-5 mt-10 bg-slate-900 rounded-lg shadow-lg">
+      <div className="flex justify-start items-center h-10 w-2/3 mx-5 mt-10 rounded-xl hover:bg-slate-900">
         <h1 className="p-3 text-yellow-400 font-mono text-md">Διαστάσεις</h1>
       </div>
       <div className="flex justify-start w-2/3 mx-5 my-5">
