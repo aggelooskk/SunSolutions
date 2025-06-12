@@ -4,8 +4,10 @@ import { toast } from "react-toastify";
 import NavBar from "../Components/NavBar";
 import Footer from "../Components/Footer";
 
+
 function ContactScreen() {
   const formRef = useRef();
+  const navigate = useNavigate();
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -37,13 +39,13 @@ function ContactScreen() {
         <h1 className="text-3xl font-bold mb-6">Επικοινωνία</h1>
         <form ref={formRef} onSubmit={sendEmail} className="space-y-6">
           <div className="flex flex-col">
-            <label htmlFor="firstName" className="font-semibold text-lg mb-2">
+            <label htmlFor="name" className="font-semibold text-lg mb-2">
               Όνομα
             </label>
             <input
               type="text"
-              id="firstName"
-              name="firstName"
+              id="name"
+              name="name"
               required
               placeholder="Προσθέστε το όνόμα σας"
               className="p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
