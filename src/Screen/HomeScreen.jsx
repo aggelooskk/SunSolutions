@@ -2,7 +2,7 @@ import React from "react";
 import Header from "../Components/Header";
 import SolarCard from "../Components/SolarCard";
 import Footer from "../Components/Footer";
-import data from "../data.json";
+import card from "../card.json";
 import SolarCarousel from "../Components/SolarCarousel";
 
 function HomeScreen() {
@@ -10,7 +10,7 @@ function HomeScreen() {
     <>
       <Header />
       <section className="flex flex-wrap justify-center gap-6 p-10">
-        {data.map((item, index) => (
+        {card.map((item, index) => (
           <SolarCard
             key={index}
             name={item.name}

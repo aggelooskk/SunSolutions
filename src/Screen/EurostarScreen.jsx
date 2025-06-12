@@ -7,7 +7,7 @@ function EurostarScreen() {
       <NavBar />
 
       <div className="flex justify-center m-5">
-        <img className="w-30 h-30" src="/eurostar/eurostarSolars.png" />
+        <img className="w-30 h-30" src="/eurostar/eurostarSolars.png" alt="eurostarSolars" />
       </div>
 
       <div className="w-2/3 mx-auto md:mx-5">
@@ -157,7 +157,7 @@ function EurostarScreen() {
           </ol>
         </div>
         <div className="flex justify-start my-7">
-          <img src="/eurostar/eurostarMod.png" alt="eurostar" className="" />
+          <img src="/eurostar/eurostarMod.png" alt="eurostarMod" />
         </div>
       </div>
       <Footer />
