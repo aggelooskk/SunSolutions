@@ -1,6 +1,6 @@
 import { useRef } from "react";
 import emailjs from "emailjs-com";
-import env from "react-dotenv";
+import { toast } from "react-toastify";
 import NavBar from "../Components/NavBar";
 import Footer from "../Components/Footer";
 
@@ -19,12 +19,12 @@ function ContactScreen() {
       )
       .then(
         (result) => {
-          alert("Message sent successfully! 📬");
+          toast.success("Message sent successfully! 📬");
           formRef.current.reset();
         },
         (error) => {
           console.error("Email send error:", error.text);
-          alert("Something went wrong. Please try again later.");
+          toast.error("Something went wrong. Please try again later.");
         }
       );
   };
