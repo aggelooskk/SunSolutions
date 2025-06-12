@@ -1,9 +1,9 @@
 import { useRef } from "react";
+import { useNavigate } from "react-router-dom";
 import emailjs from "emailjs-com";
 import { toast } from "react-toastify";
 import NavBar from "../Components/NavBar";
 import Footer from "../Components/Footer";
-
 
 function ContactScreen() {
   const formRef = useRef();
@@ -22,6 +22,7 @@ function ContactScreen() {
       .then(
         (result) => {
           toast.success("Message sent successfully! 📬");
+          navigate("/");
           formRef.current.reset();
         },
         (error) => {
