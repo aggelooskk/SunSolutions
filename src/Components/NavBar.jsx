@@ -16,19 +16,19 @@ function NavBar() {
         </a>
         <button
           onClick={toggleMenu}
-          className="sm:hidden block text-black hover:text-yellow-400 focus:outline-none "
+          className="sm:hidden block text-white hover:text-yellow-400 focus:outline-none "
         >
           <span className="text-2xl">&#9776;</span>
         </button>
         <div className="hidden sm:flex space-x-6">
           <a href="/" className="hover:text-yellow-400">
-            Home
+            Αρχική
           </a>
           <a href="/contact" className="hover:text-yellow-400">
-            Contact
+            Επικοινωνία
           </a>
           <a href="#" className="hover:text-yellow-400">
-            About
+            Σχετικά
           </a>
         </div>
       </nav>
@@ -43,13 +43,13 @@ function NavBar() {
             </button>
             <nav className="space-y-4">
               <a href="/" className="block text-lg">
-                Home
+                Αρχική
               </a>
               <a href="/contact" className="block text-lg">
-                Contact
+                Επικοινωνία
               </a>
               <a href="#" className="block text-lg">
-                About
+                Σχετικά
               </a>
             </nav>
           </div>
