@@ -5,6 +5,11 @@ function EurostarScreen() {
   return (
     <>
       <NavBar />
+
+      <div className="flex justify-center m-5">
+        <img className="w-30 h-30" src="/eurostar/eurostarSolars.png" />
+      </div>
+
       <div className="w-2/3 mx-auto md:mx-5">
         {/* Header Section */}
         <div className="flex justify-start items-center h-10 mt-10 rounded-xl hover:bg-slate-900">
@@ -152,7 +157,7 @@ function EurostarScreen() {
           </ol>
         </div>
         <div className="flex justify-start my-7">
-          <img src="/eurostarmod.png" alt="eurostar" className="" />
+          <img src="/eurostar/eurostarMod.png" alt="eurostar" className="" />
         </div>
       </div>
       <Footer />
