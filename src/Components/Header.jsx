@@ -18,13 +18,13 @@ function Header() {
           </h1>
           <div className="hidden md:flex space-x-6">
             <Link to="/" className="hover:text-gray-300">
-              Home
+              Αρχική
             </Link>
             <Link to="/contact" className="hover:text-gray-300">
-              Contact
+              Επικοινωνιά
             </Link>
             <Link to="/about" className="hover:text-gray-300">
-              About
+              Σχετικά
             </Link>
           </div>
           <button
@@ -56,13 +56,13 @@ function Header() {
             </button>
             <div className="mt-12 space-y-4 text-lg">
               <Link to="/" onClick={() => setIsOpen(false)}>
-                Home
+                Αρχική
               </Link>
               <Link to="/contact" onClick={() => setIsOpen(false)}>
-                Contact
+                Επικοινωνία
               </Link>
               <Link to="/about" onClick={() => setIsOpen(false)}>
-                About
+                Σχετικά
               </Link>
             </div>
           </div>
