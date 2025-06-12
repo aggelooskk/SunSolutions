@@ -4,6 +4,8 @@ import ContactScreen from "./Screen/ContactScreen";
 import EurostarScreen from "./Screen/EurostarScreen";
 import FinoScreen from "./Screen/FinoScreen";
 import EcoScreen from "./Screen/EcoScreen";
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 function App() {
   return (
@@ -17,6 +19,7 @@ function App() {
           <Route path="/eco" element={<EcoScreen />} />
         </Routes>
       </BrowserRouter>
+      <ToastContainer position="top-right" autoClose={3000} hideProgressBar={false} newestOnTop closeOnClick pauseOnFocusLoss draggable pauseOnHover />
     </>
   );
 }
