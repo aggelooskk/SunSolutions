@@ -12,7 +12,7 @@ function EcoScreen() {
       <div className="w-2/3 mx-auto md:mx-5">
         {/* Iliothermo ECO Section */}
         <div className="flex justify-start items-center h-10 mt-10 rounded-xl hover:bg-slate-900">
-          <h1 className="p-3 text-yellow-400 font-mono text-md">
+          <h1 className="p-3 text-orange-400 font-mono text-md drop-shadow-lg">
             Ηλιακός Θερμοσίφωνας ΗΛΙΟΘΕΡΜΟ ECO
           </h1>
         </div>
@@ -35,7 +35,7 @@ function EcoScreen() {
 
         {/* Iliothermo ECO Advantages */}
         <div className="flex justify-start items-center h-10 mt-10 rounded-xl hover:bg-slate-900">
-          <h1 className="p-3 text-yellow-400 font-mono text-md">
+          <h1 className="p-3 text-orange-400 font-mono text-md drop-shadow-lg">
             Πλεονεκτήματα
           </h1>
         </div>
@@ -61,7 +61,7 @@ function EcoScreen() {
 
         {/* Iliothermo ECO Technical Specs */}
         <div className="flex justify-start items-center h-10 mt-10 rounded-xl hover:bg-slate-900">
-          <h1 className="p-3 text-yellow-400 font-mono text-md">
+          <h1 className="p-3 text-orange-400 font-mono text-md drop-shadow-lg">
             Τεχνικά Χαρακτηριστικά
           </h1>
         </div>
@@ -116,7 +116,9 @@ function EcoScreen() {
 
         {/* Iliothermo ECO Sizes */}
         <div className="flex justify-start items-center h-10 mt-10 rounded-xl hover:bg-slate-900">
-          <h1 className="p-3 text-yellow-400 font-mono text-md">Διαστάσεις</h1>
+          <h1 className="p-3 text-orange-400 font-mono text-md drop-shadow-lg">
+            Διαστάσεις
+          </h1>
         </div>
         <div className="flex justify-start my-5">
           <img src="/eco/EcoSizes.png" alt="EcoSizes" />

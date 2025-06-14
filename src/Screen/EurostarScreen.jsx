@@ -7,13 +7,17 @@ function EurostarScreen() {
       <NavBar />
 
       <div className="flex justify-center m-5">
-        <img className="w-30 h-30" src="/eurostar/eurostarSolars.png" alt="eurostarSolars" />
+        <img
+          className="w-30 h-30"
+          src="/eurostar/eurostarSolars.png"
+          alt="eurostarSolars"
+        />
       </div>
 
       <div className="w-2/3 mx-auto md:mx-5">
         {/* Header Section */}
         <div className="flex justify-start items-center h-10 mt-10 rounded-xl hover:bg-slate-900">
-          <h1 className="p-3 text-yellow-400 font-mono text-md ">
+          <h1 className="p-3 text-orange-400 font-mono text-md drop-shadow-lg">
             Ηλιακοί Θερμοσίφωνες Κανονικού Ύψους
           </h1>
         </div>
@@ -54,7 +58,7 @@ function EurostarScreen() {
 
         {/* Advantages Section */}
         <div className="flex justify-start items-center h-10 mt-10 rounded-xl hover:bg-slate-900">
-          <h1 className="p-3 text-yellow-400 font-mono text-md">
+          <h1 className="p-3 text-orange-400 font-mono text-md drop-shadow-lg">
             Πλεονεκτήματα
           </h1>
         </div>
@@ -76,7 +80,7 @@ function EurostarScreen() {
 
         {/* Technical Specs Section */}
         <div className="flex justify-start items-center h-10 mt-10 rounded-xl hover:bg-slate-900">
-          <h1 className="p-3 text-yellow-400 font-mono text-md">
+          <h1 className="p-3 text-orange-400 font-mono text-md drop-shadow-lg">
             Τεχνικά Χαρακτηριστικά Boiler
           </h1>
         </div>
@@ -116,7 +120,7 @@ function EurostarScreen() {
 
         {/* Additional Technical Specs Section */}
         <div className="flex justify-start items-center h-10 mt-10 rounded-xl hover:bg-slate-900">
-          <h1 className="p-3 text-yellow-400 font-mono text-md">
+          <h1 className="p-3 text-orange-400 font-mono text-md drop-shadow-lg">
             Τεχνικά Χαρακτηριστικά Ηλιακού Συλλέκτη
           </h1>
         </div>
