@@ -17,13 +17,13 @@ function Header() {
             Sun Solutions & Co.
           </h1>
           <div className="hidden md:flex md:flex-row space-x-6">
-            <Link to="/" className="hover:text-gray-300">
+            <Link to="/" className="hover:text-orange-400">
               Αρχική
             </Link>
-            <Link to="/contact" className="hover:text-gray-300">
+            <Link to="/contact" className="hover:text-orange-400">
               Επικοινωνιά
             </Link>
-            <Link to="/about" className="hover:text-gray-300">
+            <Link to="/about" className="hover:text-orange-400">
               Σχετικά
             </Link>
           </div>
@@ -59,13 +59,25 @@ function Header() {
               &times;
             </button>
             <div className="mt-12 flex flex-col space-y-4 text-lg">
-              <Link to="/" onClick={() => setIsOpen(false)}>
+              <Link
+                to="/"
+                className="hover:text-orange-400"
+                onClick={() => setIsOpen(false)}
+              >
                 Αρχική
               </Link>
-              <Link to="/contact" onClick={() => setIsOpen(false)}>
+              <Link
+                to="/contact"
+                className="hover:text-orange-400"
+                onClick={() => setIsOpen(false)}
+              >
                 Επικοινωνία
               </Link>
-              <Link to="/about" onClick={() => setIsOpen(false)}>
+              <Link
+                to="/about"
+                className="hover:text-orange-400"
+                onClick={() => setIsOpen(false)}
+              >
                 Σχετικά
               </Link>
             </div>
