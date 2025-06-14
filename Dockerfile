@@ -1,25 +1,22 @@
 # Dockerfile
 
-# Use Node image
-FROM node:21.0.0-alpine
+# --- BUILD STAGE ---
+FROM node:21.0.0-alpine AS builder
 
-# Set working directory
-WORKDIR /usr/src/app
+WORKDIR /app
 
-# Copy package.json and lock file first
 COPY package*.json ./
-
-# Install dependencies
+# Add build dependencies for native modules
+RUN apk add --no-cache python3 make g++
 RUN npm install
 
-# Copy everything else
 COPY . .
+RUN npm run build
 
-# Set user (optional if permission issues arise)
-# USER node
+# --- SERVE STAGE ---
+FROM nginx:stable-alpine
 
-# Expose the port React uses
-EXPOSE 3000
+COPY --from=builder /app/build /usr/share/nginx/html
 
-# Start the app
-CMD ["npm", "start"]
+EXPOSE 80
+CMD ["nginx", "-g", "daemon off;"]
