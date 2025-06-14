@@ -16,14 +16,14 @@ function EurostarScreen() {
 
       <div className="w-2/3 mx-auto md:mx-5">
         {/* Header Section */}
-        <div className="flex justify-start items-center h-10 mt-10 rounded-xl hover:bg-slate-900">
+        <div className="flex justify-start items-center h-10 mt-10 rounded-xl hover:bg-slate-900 transition-colors duration-200">
           <h1 className="p-3 text-orange-400 font-mono text-md drop-shadow-lg">
             Ηλιακοί Θερμοσίφωνες Κανονικού Ύψους
           </h1>
         </div>
 
         {/* Description Section */}
-        <div className="mt-2 p-6 shadow-sm bg-white border-gray-100 hover:scale-105">
+        <div className="mt-2 p-6 shadow-sm bg-white border-gray-100 hover:scale-105 transition-colors duration-200">
           <div className="text-black space-y-4">
             <li>
               Ο ηλιακός θερμοσίφωνας EUROSTAR έχει σχεδιαστεί και κατασκευαστεί
@@ -57,12 +57,12 @@ function EurostarScreen() {
         </div>
 
         {/* Advantages Section */}
-        <div className="flex justify-start items-center h-10 mt-10 rounded-xl hover:bg-slate-900">
+        <div className="flex justify-start items-center h-10 mt-10 rounded-xl hover:bg-slate-900 transition-colors duration-200">
           <h1 className="p-3 text-orange-400 font-mono text-md drop-shadow-lg">
             Πλεονεκτήματα
           </h1>
         </div>
-        <div className="mt-2 p-6 shadow-sm bg-white border-gray-100 hover:scale-105">
+        <div className="mt-2 p-6 shadow-sm bg-white border-gray-100 hover:scale-105 transition-colors duration-200">
           <ul className="list-disc list-inside text-black space-y-2 ml-2">
             <li>
               Απλή Εγκατάσταση στα Κεραμίδια — Με τις ειδικές βάσεις του, το
@@ -79,12 +79,12 @@ function EurostarScreen() {
         </div>
 
         {/* Technical Specs Section */}
-        <div className="flex justify-start items-center h-10 mt-10 rounded-xl hover:bg-slate-900">
+        <div className="flex justify-start items-center h-10 mt-10 rounded-xl hover:bg-slate-900 transition-colors duration-200">
           <h1 className="p-3 text-orange-400 font-mono text-md drop-shadow-lg">
             Τεχνικά Χαρακτηριστικά Boiler
           </h1>
         </div>
-        <div className="mt-2 p-6 shadow-sm bg-white border-gray-100 hover:scale-105">
+        <div className="mt-2 p-6 shadow-sm bg-white border-gray-100 hover:scale-105 transition-colors duration-200">
           <p className="text-black mb-4">
             Πλαίσιο ηλιακού συλλέκτη από ειδικά σχεδιασμένο χυτό προφίλ
             αλουμινίου, επεξεργασμένο με ηλεκτροστατική βαφή φούρνου, χωρίς
@@ -119,12 +119,12 @@ function EurostarScreen() {
         </div>
 
         {/* Additional Technical Specs Section */}
-        <div className="flex justify-start items-center h-10 mt-10 rounded-xl hover:bg-slate-900">
+        <div className="flex justify-start items-center h-10 mt-10 rounded-xl hover:bg-slate-900 transition-colors duration-200">
           <h1 className="p-3 text-orange-400 font-mono text-md drop-shadow-lg">
             Τεχνικά Χαρακτηριστικά Ηλιακού Συλλέκτη
           </h1>
         </div>
-        <div className="mt-2 p-6 shadow-sm bg-white border-gray-100 hover:scale-105">
+        <div className="mt-2 p-6 shadow-sm bg-white border-gray-100 hover:scale-105 transition-colors duration-200">
           <p className="text-black mb-4">
             Πλαίσιο ηλιακού συλλέκτη από ειδικά σχεδιασμένο χυτό προφίλ
             αλουμινίου, επεξεργασμένο με ηλεκτροστατική βαφή φούρνου, χωρίς

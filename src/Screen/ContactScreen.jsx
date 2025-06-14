@@ -93,7 +93,7 @@ function ContactScreen() {
           </div>
           <button
             type="submit"
-            className="w-full py-3 mt-4 bg-black text-white font-bold rounded-lg hover:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-blue-500"
+            className="w-full py-3 mt-4 bg-black text-white font-bold rounded-lg hover:bg-gray-800 transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-blue-500"
           >
             Ολοκλήρωση Αποστολής
           </button>

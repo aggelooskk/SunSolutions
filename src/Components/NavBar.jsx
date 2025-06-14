@@ -11,24 +11,24 @@ function NavBar() {
       <nav className="flex justify-between items-center h-20 p-4 bg-gray-900 text-white shadow-md font-mono">
         <Link
           to="/"
-          className="text-lg sm:text-2xl font-bold uppercase hover:text-orange-400"
+          className="text-lg sm:text-2xl font-bold uppercase hover:text-orange-400 transition-colors duration-200"
         >
           Sun Solutions & Co.
         </Link>
         <button
           onClick={toggleMenu}
-          className="sm:hidden block text-white hover:text-orange-400 focus:outline-none "
+          className="sm:hidden block text-white hover:text-orange-400 transition-colors duration-200 focus:outline-none "
         >
           <span className="text-2xl">&#9776;</span>
         </button>
         <div className="hidden sm:flex space-x-6">
-          <Link to="/" className="hover:text-yellow-400">
+          <Link to="/" className="hover:text-yellow-400 transition-colors duration-200">
             Αρχική
           </Link>
-          <Link to="/contact" className="hover:text-orange-400">
+          <Link to="/contact" className="hover:text-orange-400 transition-colors duration-200">
             Επικοινωνία
           </Link>
-          <Link to="#" className="hover:text-orange-400">
+          <Link to="#" className="hover:text-orange-400 transition-colors duration-200">
             Σχετικά
           </Link>
         </div>
@@ -43,16 +43,16 @@ function NavBar() {
               &#10005;
             </button>
             <nav className="space-y-4">
-              <Link to="/" className="block text-lg hover:text-orange-400">
+              <Link to="/" className="block text-lg hover:text-orange-400 transition-colors duration-200">
                 Αρχική
               </Link>
               <Link
                 to="/contact"
-                className="block text-lg hover:text-orange-400"
+                className="block text-lg hover:text-orange-400 transition-colors duration-200"
               >
                 Επικοινωνία
               </Link>
-              <Link to="#" className="block text-lg hover:text-orange-400">
+              <Link to="#" className="block text-lg hover:text-orange-400 transition-colors duration-200">
                 Σχετικά
               </Link>
             </nav>

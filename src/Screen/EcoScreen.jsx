@@ -11,7 +11,7 @@ function EcoScreen() {
       </div>
       <div className="w-2/3 mx-auto md:mx-5">
         {/* Iliothermo ECO Section */}
-        <div className="flex justify-start items-center h-10 mt-10 rounded-xl hover:bg-slate-900">
+        <div className="flex justify-start items-center h-10 mt-10 rounded-xl hover:bg-slate-900 transition-colors duration-200">
           <h1 className="p-3 text-orange-400 font-mono text-md drop-shadow-lg">
             Ηλιακός Θερμοσίφωνας ΗΛΙΟΘΕΡΜΟ ECO
           </h1>
@@ -34,7 +34,7 @@ function EcoScreen() {
         </div>
 
         {/* Iliothermo ECO Advantages */}
-        <div className="flex justify-start items-center h-10 mt-10 rounded-xl hover:bg-slate-900">
+        <div className="flex justify-start items-center h-10 mt-10 rounded-xl hover:bg-slate-900 transition-colors duration-200">
           <h1 className="p-3 text-orange-400 font-mono text-md drop-shadow-lg">
             Πλεονεκτήματα
           </h1>
@@ -60,7 +60,7 @@ function EcoScreen() {
         </div>
 
         {/* Iliothermo ECO Technical Specs */}
-        <div className="flex justify-start items-center h-10 mt-10 rounded-xl hover:bg-slate-900">
+        <div className="flex justify-start items-center h-10 mt-10 rounded-xl hover:bg-slate-900 transition-colors duration-200">
           <h1 className="p-3 text-orange-400 font-mono text-md drop-shadow-lg">
             Τεχνικά Χαρακτηριστικά
           </h1>
@@ -115,7 +115,7 @@ function EcoScreen() {
         </div>
 
         {/* Iliothermo ECO Sizes */}
-        <div className="flex justify-start items-center h-10 mt-10 rounded-xl hover:bg-slate-900">
+        <div className="flex justify-start items-center h-10 mt-10 rounded-xl hover:bg-slate-900 transition-colors duration-200">
           <h1 className="p-3 text-orange-400 font-mono text-md drop-shadow-lg">
             Διαστάσεις
           </h1>

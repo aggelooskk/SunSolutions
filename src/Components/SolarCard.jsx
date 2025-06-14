@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 function SolarCard({ name, description, image, route }) {
   return (
     <>
-      <div className="w-60 m-4 p-4 bg-white border border-gray-200 rounded-lg shadow-md flex flex-col items-center text-center hover:scale-105">
+      <div className="w-60 m-4 p-4 bg-white border border-gray-200 rounded-lg shadow-md flex flex-col items-center text-center hover:scale-105 transition-colors duration-200">
         <img
           src={image}
           alt={name}
@@ -13,9 +13,9 @@ function SolarCard({ name, description, image, route }) {
         <p className="text-sm font-serif text-gray-600 mb-4">{description}</p>
         <Link
           to={route}
-          className="mt-auto px-4 py-2 border border-gray-800 text-gray-800 hover:bg-gray-800 hover:text-white transition rounded"
+          className="mt-auto px-4 py-2 border border-gray-800 text-gray-800 hover:bg-gray-800 hover:text-white transition-colors duration-200 rounded"
         >
-          Learn More
+          Περισσότερα
         </Link>
       </div>
     </>

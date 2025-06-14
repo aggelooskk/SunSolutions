@@ -17,13 +17,22 @@ function Header() {
             Sun Solutions & Co.
           </h1>
           <div className="hidden md:flex md:flex-row space-x-6">
-            <Link to="/" className="hover:text-orange-400">
+            <Link
+              to="/"
+              className="hover:text-orange-400 transition-colors duration-200"
+            >
               Αρχική
             </Link>
-            <Link to="/contact" className="hover:text-orange-400">
+            <Link
+              to="/contact"
+              className="hover:text-orange-400 transition-colors duration-200"
+            >
               Επικοινωνιά
             </Link>
-            <Link to="/about" className="hover:text-orange-400">
+            <Link
+              to="/about"
+              className="hover:text-orange-400 transition-colors duration-200"
+            >
               Σχετικά
             </Link>
           </div>
@@ -61,21 +70,21 @@ function Header() {
             <div className="mt-12 flex flex-col space-y-4 text-lg">
               <Link
                 to="/"
-                className="hover:text-orange-400"
+                className="hover:text-orange-400 transition-colors duration-200"
                 onClick={() => setIsOpen(false)}
               >
                 Αρχική
               </Link>
               <Link
                 to="/contact"
-                className="hover:text-orange-400"
+                className="hover:text-orange-400 transition-colors duration-200"
                 onClick={() => setIsOpen(false)}
               >
                 Επικοινωνία
               </Link>
               <Link
                 to="/about"
-                className="hover:text-orange-400"
+                className="hover:text-orange-400 transition-colors duration-200"
                 onClick={() => setIsOpen(false)}
               >
                 Σχετικά

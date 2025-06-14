@@ -1,4 +1,4 @@
-import React from "react";
+import { Link } from "react-router-dom";
 import { FaFacebook, FaGoogle, FaGithub, FaTiktok } from "react-icons/fa";
 
 function Footer() {
@@ -6,7 +6,7 @@ function Footer() {
     <>
       <footer className="bg-gray-900 text-white pt-8 font-sans">
         <div className="text-center mb-6">
-          <p className="text-sm font-mono mb-4">
+          <p className="text-sm font-sans mb-4 hover:text-orange-400 transition-colors duration-200">
             Get connected with us on social networks:
           </p>
           <div className="flex justify-center space-x-4 text-white">
@@ -30,32 +30,65 @@ function Footer() {
         </div>
         <div className="max-w-6xl mx-auto px-6 md:px-12 grid grid-cols-1 md:grid-cols-2 gap-10 py-8 border-t border-gray-700">
           <div>
-            <h5 className="text-xl font-mono mb-2">Sun Solutions & Co.</h5>
-            <p className="text-sm text-gray-400 max-w-md">
-              Here you can use rows and columns to organize your footer content.
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            <h5 className="text-xl font-mono mb-2 hover:text-orange-400 transition-colors duration-200">
+              Sun Solutions & Co.
+            </h5>
+            <p className="text-md font-sans text-gray-400 max-w-md hover:text-orange-400 transition-colors duration-200">
+              Φυσική ενέργεια, φυσική επιλογή. Ηλιακοί θερμοσίφωνες με υπογραφή
+              ποιότητας.
             </p>
           </div>
           <div className="grid grid-cols-2 gap-8">
             <div>
-              <h5 className="text-lg font-mono mb-2">PRODUCTS</h5>
-              <ul className="space-y-1 text-sm text-gray-300">
-                <li>Eurostar Sole</li>
-                <li>Eurostar Fino</li>
-                <li>Eco</li>
+              <h5 className="text-lg font-mono mb-2  hover:text-orange-400 transition-colors duration-200">
+                PRODUCTS
+              </h5>
+              <ul className="space-y-1 text-md font-sans text-gray-300">
+                <li>
+                  <Link
+                    to="/eurostar"
+                    className="hover:text-orange-400 transition-colors duration-200 font-sans"
+                  >
+                    Eurostar
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    to="/fino"
+                    className="hover:text-orange-400 transition-colors duration-200 font-sans"
+                  >
+                    Fino
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    to="/Eco"
+                    className="hover:text-orange-400 transition-colors duration-200 font-sans"
+                  >
+                    Eurostar
+                  </Link>
+                </li>
               </ul>
             </div>
             <div>
-              <h5 className="text-lg font-mono mb-2">CONTACT</h5>
-              <ul className="space-y-1 text-sm text-gray-300">
-                <li>📍 Athens, Fedriadon 120, 113 64</li>
-                <li>✉️ info@example.com</li>
-                <li>📞 +30 6932462414</li>
+              <h5 className="text-lg font-mono mb-2 hover:text-orange-400 transition-colors duration-200">
+                CONTACT
+              </h5>
+              <ul className="space-y-1 text-sm font-sans text-gray-300">
+                <li className="hover:text-orange-400 transition-colors duration-200 font-sans">
+                  📍 Athens, Fedriadon 120, 113 64
+                </li>
+                <li className="hover:text-orange-400 transition-colors duration-200 font-sans">
+                  ✉️ info@example.com
+                </li>
+                <li className="hover:text-orange-400 transition-colors duration-200 font-sans">
+                  📞 +30 6932462414
+                </li>
               </ul>
             </div>
           </div>
         </div>
-        <div className="text-center text-sm text-gray-500 border-t border-gray-700 py-4">
+        <div className="text-center text-sm font-sans text-gray-500 border-t border-gray-700 py-4 hover:text-orange-400 transition-colors duration-200">
           &copy; 2025 Copyrights
         </div>
       </footer>
