@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 function NavBar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -8,12 +9,12 @@ function NavBar() {
   return (
     <>
       <nav className="flex justify-between items-center h-20 p-4 bg-gray-900 text-white shadow-md font-mono">
-        <a
-          href="/"
+        <Link
+          to="/"
           className="text-lg sm:text-2xl font-bold uppercase hover:text-orange-400"
         >
           Sun Solutions & Co.
-        </a>
+        </Link>
         <button
           onClick={toggleMenu}
           className="sm:hidden block text-white hover:text-orange-400 focus:outline-none "
@@ -21,15 +22,15 @@ function NavBar() {
           <span className="text-2xl">&#9776;</span>
         </button>
         <div className="hidden sm:flex space-x-6">
-          <a href="/" className="hover:text-yellow-400">
+          <Link to="/" className="hover:text-yellow-400">
             Αρχική
-          </a>
-          <a href="/contact" className="hover:text-orange-400">
+          </Link>
+          <Link to="/contact" className="hover:text-orange-400">
             Επικοινωνία
-          </a>
-          <a href="#" className="hover:text-orange-400">
+          </Link>
+          <Link to="#" className="hover:text-orange-400">
             Σχετικά
-          </a>
+          </Link>
         </div>
       </nav>
       {isOpen && (
@@ -42,18 +43,18 @@ function NavBar() {
               &#10005;
             </button>
             <nav className="space-y-4">
-              <a href="/" className="block text-lg hover:text-orange-400">
+              <Link to="/" className="block text-lg hover:text-orange-400">
                 Αρχική
-              </a>
-              <a
-                href="/contact"
+              </Link>
+              <Link
+                to="/contact"
                 className="block text-lg hover:text-orange-400"
               >
                 Επικοινωνία
-              </a>
-              <a href="#" className="block text-lg hover:text-orange-400">
+              </Link>
+              <Link to="#" className="block text-lg hover:text-orange-400">
                 Σχετικά
-              </a>
+              </Link>
             </nav>
           </div>
         </div>
