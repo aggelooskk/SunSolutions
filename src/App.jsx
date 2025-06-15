@@ -5,6 +5,7 @@ import EurostarScreen from "./Screen/EurostarScreen";
 import FinoScreen from "./Screen/FinoScreen";
 import EcoScreen from "./Screen/EcoScreen";
 import TermsConditionsScreen from "./Screen/TermsConditionsScreen";
+import CookiePolicyScreen from "./Screen/CookiePolicyScreen";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
@@ -19,6 +20,7 @@ function App() {
           <Route path="/fino" element={<FinoScreen />} />
           <Route path="/eco" element={<EcoScreen />} />
           <Route path="/terms&conditions" element={<TermsConditionsScreen />} />
+          <Route path="/cookiepolicy" element={<CookiePolicyScreen />} />
         </Routes>
       </BrowserRouter>
       <ToastContainer
