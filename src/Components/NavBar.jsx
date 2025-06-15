@@ -13,7 +13,7 @@ function NavBar() {
           to="/"
           className="text-lg sm:text-2xl font-bold uppercase hover:text-orange-400 transition-colors duration-200"
         >
-          Sun Solutions & Co.
+          Sun Solutions Co.
         </Link>
         <button
           onClick={toggleMenu}

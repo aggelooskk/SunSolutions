@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { Link } from "react-router-dom";
 
 function Header() {
@@ -13,8 +13,8 @@ function Header() {
         ></div>
         <div className="absolute inset-0 bg-black bg-opacity-40"></div>
         <nav className="absolute top-0 left-0 right-0 z-20 p-4 flex justify-between items-center text-white font-mono">
-          <h1 className="text-xl sm:text-2xl font-bold uppercase">
-            Sun Solutions & Co.
+          <h1 className="text-xl sm:text-2xl font-bold uppercase hover:text-orange-400 transition-colors duration-200">
+            Sun Solutions Co.
           </h1>
           <div className="hidden md:flex md:flex-row space-x-6">
             <Link
@@ -42,7 +42,7 @@ function Header() {
               className="md:hidden focus:outline-none"
             >
               <svg
-                className="w-6 h-6 text-white"
+                className="w-6 h-6 text-white hover:text-orange-400 transition-colors duration-200 "
                 fill="none"
                 stroke="currentColor"
                 strokeWidth="2"
