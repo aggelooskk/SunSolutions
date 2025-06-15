@@ -88,8 +88,11 @@ function Footer() {
             </div>
           </div>
         </div>
-        <div className="text-center text-sm font-sans text-gray-500 border-t border-gray-700 py-4 hover:text-orange-400 transition-colors duration-200">
-          &copy; 2025 Copyrights
+        <div className="flex items-center justify-center gap-3 text-sm font-sans text-gray-500 border-t border-gray-700 py-4">
+          <p className="hover:text-orange-400 transition-colors duration-200">&copy; 2025 Copyrights</p>
+          <Link to="/terms&conditions">
+            <p className="underline hover:text-orange-400 transition-colors duration-200">Terms and Conditions</p>
+          </Link>
         </div>
       </footer>
     </>
