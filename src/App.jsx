@@ -18,7 +18,7 @@ function App() {
           <Route path="/eurostar" element={<EurostarScreen />} />
           <Route path="/fino" element={<FinoScreen />} />
           <Route path="/eco" element={<EcoScreen />} />
-          <Route path="/term&conditions" element={<TermsConditionsScreen />} />
+          <Route path="/terms&conditions" element={<TermsConditionsScreen />} />
         </Routes>
       </BrowserRouter>
       <ToastContainer
