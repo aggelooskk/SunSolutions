@@ -15,11 +15,11 @@ function SolarCarousel() {
   }, []);
 
   return (
-    <div className="relative w-full h-96 m-5 rounded-2xl shadow-lg overflow-hidden">
+    <div className="relative w-full h-96 m-4 rounded-2xl shadow-lg overflow-hidden">
       <img
         src={images[currentIndex].src}
         alt={images[currentIndex].alt}
-        className="w-full h-full object-cover transition duration-1000 ease-in-out"
+        className="w-full h-full object-contain transition duration-1000 ease-in-out"
       />
     </div>
   );
