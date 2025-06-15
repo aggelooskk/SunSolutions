@@ -36,11 +36,11 @@ function ContactScreen() {
     <>
       <NavBar />
 
-      <div className="max-w-4xl mx-auto my-6 p-6">
-        <h1 className="text-3xl font-bold mb-6">Επικοινωνία</h1>
+      <div className="max-w-4xl mx-auto font-sans my-6 p-6">
+        <h1 className="text-3xl font-bold  mb-6">Επικοινωνία</h1>
         <form ref={formRef} onSubmit={sendEmail} className="space-y-6">
           <div className="flex flex-col">
-            <label htmlFor="name" className="font-semibold text-lg mb-2">
+            <label htmlFor="name" className="font-semibold  text-lg mb-2">
               Όνομα
             </label>
             <input
@@ -49,7 +49,7 @@ function ContactScreen() {
               name="name"
               required
               placeholder="Προσθέστε το όνόμα σας"
-              className="p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+              className="p-3 border font-mono border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-orange-500"
             />
           </div>
           <div className="flex flex-col">
@@ -62,7 +62,7 @@ function ContactScreen() {
               name="lastName"
               required
               placeholder="Προσθέστε το επώνυμο σας"
-              className="p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+              className="p-3 border font-mono border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-orange-500"
             />
           </div>
           <div className="flex flex-col">
@@ -75,7 +75,7 @@ function ContactScreen() {
               name="email"
               required
               placeholder="Πρσθέστε το email σας"
-              className="p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+              className="p-3 border font-mono border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-orange-500"
             />
           </div>
           <div className="flex flex-col">
@@ -88,12 +88,12 @@ function ContactScreen() {
               name="phone"
               required
               placeholder="Προσθέστε το κινητό σας τηλέφωνο"
-              className="p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+              className="p-3 border font-mono border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-orange-400"
             />
           </div>
           <button
             type="submit"
-            className="w-full py-3 mt-4 bg-black text-white font-bold rounded-lg hover:bg-gray-800 transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-blue-500"
+            className="w-full py-3 mt-4 border border-gray-800 text-black font-bold rounded-lg hover:bg-orange-400 transition-colors duration-200 focus:outline-none "
           >
             Ολοκλήρωση Αποστολής
           </button>
