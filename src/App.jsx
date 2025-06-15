@@ -4,6 +4,7 @@ import ContactScreen from "./Screen/ContactScreen";
 import EurostarScreen from "./Screen/EurostarScreen";
 import FinoScreen from "./Screen/FinoScreen";
 import EcoScreen from "./Screen/EcoScreen";
+import TermsConditionsScreen from "./Screen/TermsConditionsScreen";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
@@ -17,9 +18,19 @@ function App() {
           <Route path="/eurostar" element={<EurostarScreen />} />
           <Route path="/fino" element={<FinoScreen />} />
           <Route path="/eco" element={<EcoScreen />} />
+          <Route path="/term&conditions" element={<TermsConditionsScreen />} />
         </Routes>
       </BrowserRouter>
-      <ToastContainer position="top-right" autoClose={3000} hideProgressBar={false} newestOnTop closeOnClick pauseOnFocusLoss draggable pauseOnHover />
+      <ToastContainer
+        position="top-right"
+        autoClose={3000}
+        hideProgressBar={false}
+        newestOnTop
+        closeOnClick
+        pauseOnFocusLoss
+        draggable
+        pauseOnHover
+      />
     </>
   );
 }
