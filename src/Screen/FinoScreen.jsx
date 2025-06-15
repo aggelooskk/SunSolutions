@@ -6,7 +6,7 @@ function FinoScreen() {
     <>
       <NavBar />
 
-      <div className="flex justify-center m-5">
+      <div className="flex justify-center m-5 font-sans">
         <img
           className="w-30 h-30"
           src="/fino/finoSolars.png"
@@ -17,7 +17,7 @@ function FinoScreen() {
       <div className="w-2/3 mx-auto md:mx-5">
         {/* Header Section */}
         <div className="flex justify-start items-center h-10 mt-10 rounded-xl hover:bg-slate-900 transition-colors duration-200">
-          <h1 className="p-3 text-orange-400 font-mono text-md drop-shadow-lg">
+          <h1 className="p-3 text-orange-400 font-semibold text-lg drop-shadow-lg">
             Ηλιακοί Θερμοσίφωνες Χαμηλού Ύψους
           </h1>
         </div>
@@ -48,7 +48,7 @@ function FinoScreen() {
 
         {/* Boiler Technical Specs */}
         <div className="flex justify-start items-center h-10 mt-10 rounded-xl hover:bg-slate-900 transition-colors duration-200">
-          <h1 className="p-3 text-orange-400 font-mono text-md drop-shadow-lg">
+          <h1 className="p-3 text-orange-400 font-semibold text-lg drop-shadow-lg">
             Τεχνικά Χαρακτηριστικά Boiler
           </h1>
         </div>
@@ -84,7 +84,7 @@ function FinoScreen() {
 
         {/* Advantages */}
         <div className="flex justify-start items-center h-10 mt-10 rounded-xl hover:bg-slate-900 transition-colors duration-200">
-          <h1 className="p-3 text-orange-400 font-mono text-md drop-shadow-lg">
+          <h1 className="p-3 text-orange-400 font-semibold text-lg drop-shadow-lg">
             Πλεονεκτήματα
           </h1>
         </div>
@@ -97,7 +97,7 @@ function FinoScreen() {
 
         {/* Collector Technical Specs */}
         <div className="flex justify-start items-center h-10 mt-10 rounded-xl hover:bg-slate-900 transition-colors duration-200">
-          <h1 className="p-3 text-orange-400 font-mono text-md drop-shadow-lg">
+          <h1 className="p-3 text-orange-400 font-semibold text-lg drop-shadow-lg">
             Τεχνικά Χαρακτηριστικά Ηλιακού Συλλέκτη
           </h1>
         </div>
