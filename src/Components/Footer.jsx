@@ -62,10 +62,10 @@ function Footer() {
                 </li>
                 <li>
                   <Link
-                    to="/Eco"
+                    to="/eco"
                     className="underline hover:text-orange-400 transition-colors duration-200 font-sans"
                   >
-                    Eurostar
+                    Eco
                   </Link>
                 </li>
               </ul>
@@ -82,16 +82,30 @@ function Footer() {
                   ✉️ info@example.com
                 </li>
                 <li className="hover:text-orange-400 transition-colors duration-200 font-sans">
-                  📞 +30 693 2462414
+                  📞 +30 693 246 2414
                 </li>
               </ul>
             </div>
           </div>
         </div>
-        <div className="flex items-center justify-center gap-3 text-sm font-sans text-gray-500 border-t border-gray-700 py-4">
-          <p className="hover:text-orange-400 transition-colors duration-200">&copy; 2025 Copyrights</p>
+        <div className="flex items-center justify-center  text-sm font-sans text-gray-500 border-t border-gray-700 p-1">
+          <div>
+            {" "}
+            <p className="hover:text-orange-400 transition-colors duration-200 mb-0">
+              &copy; 2025 Copyrights
+            </p>
+          </div>
+        </div>
+        <div className="flex items-center justify-center text-sm font-sans text-gray-500 border-gray-700 p-2">
           <Link to="/terms&conditions">
-            <p className="underline hover:text-orange-400 transition-colors duration-200">Terms and Conditions</p>
+            <span className="underline hover:text-orange-400 transition-colors duration-200 ml-2">
+              Terms and Conditions
+            </span>
+          </Link>
+          <Link to="/cookiepolicy">
+            <span className="underline hover:text-orange-400 transition-colors duration-200 ml-2">
+              Cookie Policy
+            </span>
           </Link>
         </div>
       </footer>
