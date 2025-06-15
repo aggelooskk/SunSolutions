@@ -1,11 +1,11 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import HomeScreen from "./Screen/HomeScreen";
-import ContactScreen from "./Screen/ContactScreen";
-import EurostarScreen from "./Screen/EurostarScreen";
-import FinoScreen from "./Screen/FinoScreen";
-import EcoScreen from "./Screen/EcoScreen";
-import TermsConditionsScreen from "./Screen/TermsConditionsScreen";
-import CookiePolicyScreen from "./Screen/CookiePolicyScreen";
+import HomeScreen from "./Screens/HomeScreen";
+import ContactScreen from "./Screens/ContactScreen";
+import EurostarScreen from "./Screens/EurostarScreen";
+import FinoScreen from "./Screens/FinoScreen";
+import EcoScreen from "./Screens/EcoScreen";
+import TermsConditionsScreen from "./Screens/TermsConditionsScreen";
+import CookiePolicyScreen from "./Screens/CookiePolicyScreen";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
