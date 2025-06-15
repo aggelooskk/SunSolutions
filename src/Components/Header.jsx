@@ -13,8 +13,8 @@ function Header() {
         ></div>
         <div className="absolute inset-0 bg-gray-500 bg-opacity-40"></div>
         {/* Center-left overlay text */}
-        <div className="absolute left-10 top-1/2 transform -translate-y-1/2 z-20 flex items-center">
-          <span className="text-white text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold drop-shadow-xl text-left">
+        <div className="flex items-center justify-center w-fit h-full mx-3">
+          <span className="text-white text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold drop-shadow-xl hover:text-orange-400 transition-colors duration-200 ">
             Αξιοπιστία, οικονομία και οικολογική λύση για κάθε σπίτι.
           </span>
         </div>
