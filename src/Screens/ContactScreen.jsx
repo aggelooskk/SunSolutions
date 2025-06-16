@@ -14,10 +14,10 @@ function ContactScreen() {
 
     emailjs
       .sendForm(
-        process.env.VITE_SERVICE_ID,
-        process.env.VITE_TEMPLATE_ID,
+        import.meta.env.VITE_SERVICE_ID,
+        import.meta.env.VITE_TEMPLATE_ID,
         formRef.current,
-        process.env.VITE_PUBLIC_KEY
+        import.meta.env.VITE_PUBLIC_KEY
       )
       .then(
         (result) => {
