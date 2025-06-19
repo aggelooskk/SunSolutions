@@ -4,6 +4,7 @@ import SolarCard from "../Components/SolarCard";
 import Footer from "../Components/Footer";
 import card from "../card.json";
 import SolarCarousel from "../Components/SolarCarousel";
+import Certifications from "../Components/Certifications";
 
 function HomeScreen() {
   return (
@@ -25,13 +26,7 @@ function HomeScreen() {
         <SolarCarousel />
       </section>
 
-      <section className="flex justify-center items-center my-10 px-4">
-        <img
-          src="/stamps.png"
-          alt="stamps"
-          className="w-full max-w-6xl rounded-lg shadow-md"
-        />
-      </section>
+      <Certifications />
       <Footer />
     </>
   );

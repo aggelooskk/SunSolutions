@@ -1,4 +1,5 @@
 import NavBar from "../Components/NavBar";
+import Certifications from "../Components/Certifications";
 import Footer from "../Components/Footer";
 
 function EcoScreen() {
@@ -128,6 +129,7 @@ function EcoScreen() {
           <img src="/eco/EcoMod.png" alt="EcoMod" />
         </div>
       </div>
+      <Certifications />
       <Footer />
     </>
   );

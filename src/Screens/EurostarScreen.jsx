@@ -1,4 +1,5 @@
 import NavBar from "../Components/NavBar";
+import Certifications from "../Components/Certifications";
 import Footer from "../Components/Footer";
 
 function EurostarScreen() {
@@ -164,6 +165,7 @@ function EurostarScreen() {
           <img src="/eurostar/eurostarMod.png" alt="eurostarMod" />
         </div>
       </div>
+      <Certifications />
       <Footer />
     </>
   );

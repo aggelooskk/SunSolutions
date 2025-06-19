@@ -1,4 +1,5 @@
 import NavBar from "../Components/NavBar";
+import Certifications from "../Components/Certifications";
 import Footer from "../Components/Footer";
 
 function FinoScreen() {
@@ -129,6 +130,7 @@ function FinoScreen() {
           </ol>
         </div>
       </div>
+      <Certifications />
       <Footer />
     </>
   );
