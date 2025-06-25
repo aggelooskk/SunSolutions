@@ -14,8 +14,7 @@ function EurostarScreen() {
           alt="eurostarSolars"
         />
       </div>
-
-      <div className="">
+      <div className="lg:w-2/3 md:w-3/5 sm:full">
         {/* Header Section */}
         <div className="flex justify-start items-center h-10 mt-10 rounded-xl">
           <h1 className="p-3 text-orange-400 font-semibold text-lg drop-shadow-lg">
@@ -161,12 +160,14 @@ function EurostarScreen() {
             </li>
           </ol>
         </div>
+
+        <div className="flex justify-center items-center my-7 w-85 h-85">
+          <img src="/eurostar/eurostarMod.png" alt="eurostarMod" className="" />
+        </div>
+        <Certifications />
+        <Footer />
       </div>
-      <div className="flex justify-center items-center my-7 w-85 h-85">
-        <img src="/eurostar/eurostarMod.png" alt="eurostarMod" className="" />
-      </div>
-      <Certifications />
-      <Footer />
+      {/* Close the React fragment */}
     </>
   );
 }
