@@ -8,7 +8,11 @@ function EcoScreen() {
       <NavBar />
 
       <div className="flex justify-start m-5 font-sans">
-        <img className="w-30 h-30" src="/eco/EcoSolars.png" alt="ecoSolars" />
+        <img
+          className="w-30 h-30"
+          src="/public/eco/EcoSolars.png"
+          alt="ecoSolars"
+        />
       </div>
       <div className="m-1 lg:w-2/3 sm:full">
         {/* Iliothermo ECO Section */}
@@ -112,7 +116,7 @@ function EcoScreen() {
         </div>
 
         <div className="flex justify-start my-7">
-          <img src="/eco/EcoSpecs.png" alt="EcoSpecs" />
+          <img src="/public/eco/EcoSpecs.png" alt="EcoSpecs" />
         </div>
 
         {/* Iliothermo ECO Sizes */}
@@ -122,11 +126,11 @@ function EcoScreen() {
           </h1>
         </div>
         <div className="flex justify-start my-5">
-          <img src="/eco/EcoSizes.png" alt="EcoSizes" />
+          <img src="/public/eco/EcoSizes.png" alt="EcoSizes" />
         </div>
 
         <div className="flex justify-start my-7">
-          <img src="/eco/EcoMod.png" alt="EcoMod" />
+          <img src="/public/eco/EcoMod.png" alt="EcoMod" />
         </div>
       </div>
       <Certifications />
