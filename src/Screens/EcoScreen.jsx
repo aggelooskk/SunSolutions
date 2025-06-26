@@ -10,7 +10,7 @@ function EcoScreen() {
       <div className="flex justify-start m-5 font-sans">
         <img
           className="w-30 h-30"
-          src="/public/eco/EcoSolars.png"
+          src="/public/eco/Ecosolars.png"
           alt="ecoSolars"
         />
       </div>
