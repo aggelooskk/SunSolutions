@@ -10,7 +10,7 @@ function FinoScreen() {
       <div className="flex justify-center m-5 font-sans">
         <img
           className="w-30 h-30"
-          src="/fino/finoSolars.png"
+          src="/public/fino/finoSolars.png"
           alt="finoSolars"
         />
       </div>

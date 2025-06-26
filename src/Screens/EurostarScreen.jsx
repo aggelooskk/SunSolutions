@@ -10,7 +10,7 @@ function EurostarScreen() {
       <div className="flex justify-start m-5 font-sans">
         <img
           className="w-30 h-30"
-          src="/eurostar/eurostarSolars.png"
+          src="/public/eurostar/eurostarSolars.png"
           alt="eurostarSolars"
         />
       </div>
@@ -162,12 +162,15 @@ function EurostarScreen() {
         </div>
 
         <div className="flex justify-center items-center my-7 w-85 h-85">
-          <img src="/eurostar/eurostarMod.png" alt="eurostarMod" className="" />
+          <img
+            src="/public/eurostar/eurostarMod.png"
+            alt="eurostarMod"
+            className=""
+          />
         </div>
         <Certifications />
         <Footer />
       </div>
-      {/* Close the React fragment */}
     </>
   );
 }
