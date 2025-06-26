@@ -15,7 +15,7 @@ function FinoScreen() {
         />
       </div>
 
-      <div className="lg:w-2/3 sm:full">
+      <div className="m-1 lg:w-2/3 sm:full">
         {/* Header Section */}
         <div className="flex justify-start items-center h-10 mt-10 rounded-xl">
           <h1 className="p-3 text-orange-400 font-semibold text-lg drop-shadow-lg">
