@@ -8,7 +8,7 @@ function FinoScreen() {
       <NavBar />
 
       <div className="flex justify-center m-5 font-sans">
-        <img className="w-30 h-30" src="fino/finoSolars.png" alt="finoSolars" />
+        <img className="w-30 h-30" src="/fino/finoSolars.png" alt="finoSolars" />
       </div>
 
       <div className="m-1 lg:w-2/3 sm:full">
