@@ -1,12 +1,12 @@
 [
   {
-    "name": "Eurostar Sole",
+    "name": "Eurostar",
     "description": "Αναβαθμισμένη απόδοση και οικολογική υπεροχή — η νέα γενιά ηλιακών θερμοσιφώνων σχεδιασμένη για να κάνει τη διαφορά.",
     "image": "/card/eurostar.png",
     "route": "/eurostar"
   },
   {
-    "name": "Eurostar Fino",
+    "name": "Fino",
     "description": "Ο EUROSTAR FINO φέρνει ισορροπία μεταξύ υψηλής απόδοσης, διαχρονικής αξιοπιστίας και σύγχρονου, διακριτικού design.",
     "image": "/card/fino.png",
     "route": "/fino"
