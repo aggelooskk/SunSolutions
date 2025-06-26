@@ -13,9 +13,12 @@ function Header() {
         ></div>
         <div className="absolute inset-0 bg-gray-500 bg-opacity-40"></div>
         {/* Center-left overlay text */}
-        <div className="flex items-center justify-center w-fit h-full mx-3">
-          <span className="text-white text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold drop-shadow-xl hover:text-orange-400 transition-colors duration-200 ">
-            Αξιοπιστία, οικονομία και οικολογική λύση για κάθε σπίτι.
+        <div className="flex items-center justify-center w-fit h-full mx-3 ">
+          <span className="text-white text-2xl sm:text-3xl md:text-4xl lg:text-4xl drop-shadow-xl font-sans ">
+            <strong className="text-orange-400 font-bold">Αξιοπιστία,</strong>{" "}
+            <strong className="text-orange-400 font-bold">οικονομία</strong> και{" "}
+            <strong className="text-orange-400 font-bold">οικολογική</strong>{" "}
+            λύση για κάθε σπίτι.
           </span>
         </div>
         <nav className="absolute top-0 left-0 right-0 z-20 p-4 flex justify-between items-center text-white font-mono">
