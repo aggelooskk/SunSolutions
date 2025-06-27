@@ -1,6 +1,7 @@
 import NavBar from "../Components/NavBar";
 import Certifications from "../Components/Certifications";
 import Footer from "../Components/Footer";
+import finoSolars from "../fino/finosSolars.png";
 
 function FinoScreen() {
   return (
@@ -8,7 +9,7 @@ function FinoScreen() {
       <NavBar />
 
       <div className="flex justify-center m-5 font-sans">
-        <img className="w-30 h-30" src="/fino/finoSolars.png" alt="finoSolars" />
+        <img className="w-30 h-30" src={finoSolars} alt="finoSolars" />
       </div>
 
       <div className="m-1 lg:w-2/3 sm:full">
