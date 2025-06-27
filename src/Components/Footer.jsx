@@ -6,9 +6,6 @@ function Footer() {
     <>
       <footer className="bg-gray-900 text-white pt-8 font-sans">
         <div className="text-center mb-6">
-          <p className="text-sm font-sans mb-4 hover:text-orange-400 transition-colors duration-200">
-            Get connected with us on social networks:
-          </p>
           <div className="flex justify-center space-x-4 text-white">
             <FaFacebook
               size={24}
