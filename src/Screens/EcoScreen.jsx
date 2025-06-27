@@ -1,10 +1,10 @@
 import NavBar from "../Components/NavBar";
 import Certifications from "../Components/Certifications";
 import Footer from "../Components/Footer";
-import ecosolars from "../Images/eco/ecosolars.png";
-import ecomod from "../Images/eco/ecomod.png";
-import ecosizes from "../Images/eco/ecosizes.png";
-import ecospecs from "../Images/eco/ecospecs.png";
+import Ecosolars from "../Images/eco/EcoSolars.png";
+import Ecomod from "../Images/eco/EcoMod.png";
+import EcoSizes from "../Images/eco/EcoSizes.png";
+import EcoSpecs from "../Images/eco/EcoSpecs.png";
 
 function EcoScreen() {
   return (
@@ -12,7 +12,7 @@ function EcoScreen() {
       <NavBar />
 
       <div className="flex justify-start m-5 font-sans">
-        <img className="w-30 h-30" src={ecosolars} alt="ecoSolars" />
+        <img className="w-30 h-30" src={EcoSolars} alt="ecoSolars" />
       </div>
       <div className="m-1 lg:w-2/3 sm:full">
         {/* Iliothermo ECO Section */}
@@ -116,7 +116,7 @@ function EcoScreen() {
         </div>
 
         <div className="flex justify-start my-7">
-          <img src={ecospecs} alt="EcoSpecs" />
+          <img src={EcoSpecs} alt="EcoSpecs" />
         </div>
 
         {/* Iliothermo ECO Sizes */}
@@ -126,11 +126,11 @@ function EcoScreen() {
           </h1>
         </div>
         <div className="flex justify-start my-5">
-          <img src={ecosizes} alt="EcoSizes" />
+          <img src={EcoSizes} alt="EcoSizes" />
         </div>
 
         <div className="flex justify-start my-7">
-          <img src={ecomod} alt="EcoMod" />
+          <img src={EcoMod} alt="EcoMod" />
         </div>
       </div>
       <Certifications />
