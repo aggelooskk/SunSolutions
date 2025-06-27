@@ -1,6 +1,8 @@
 import NavBar from "../Components/NavBar";
 import Certifications from "../Components/Certifications";
 import Footer from "../Components/Footer";
+import eurostarMod from "../eurostar/eurostarMod.png";
+import eurostarSolars from "../eurostar/eurostarSolars.png";
 
 function EurostarScreen() {
   return (
@@ -8,11 +10,7 @@ function EurostarScreen() {
       <NavBar />
 
       <div className="flex justify-start m-5 font-sans">
-        <img
-          className="w-30 h-30"
-          src="/eurostar/eurostarSolars.png"
-          alt="eurostarSolars"
-        />
+        <img className="w-30 h-30" src={eurostarSolars} alt="eurostarSolars" />
       </div>
       <div className="m-1 lg:w-2/3 md:w-3/5 sm:full">
         {/* Header Section */}
@@ -162,7 +160,7 @@ function EurostarScreen() {
         </div>
 
         <div className="flex justify-center items-center my-7 w-85 h-85">
-          <img src="/eurostar/eurostarMod.png" alt="eurostarMod" className="" />
+          <img src={eurostarMod} alt="eurostarMod" className="" />
         </div>
       </div>
       <Certifications />
