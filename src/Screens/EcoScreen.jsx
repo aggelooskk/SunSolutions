@@ -1,7 +1,7 @@
 import NavBar from "../Components/NavBar";
 import Certifications from "../Components/Certifications";
 import Footer from "../Components/Footer";
-import Ecosolars from "../eco/Ecosolars.png"
+import ecosolars from "../eco/ecosolars.png"
 
 function EcoScreen() {
   return (
@@ -11,7 +11,7 @@ function EcoScreen() {
       <div className="flex justify-start m-5 font-sans">
         <img
           className="w-30 h-30"
-          src={Ecosolars}
+          src={ecosolars}
           alt="ecoSolars"
         />
       </div>
