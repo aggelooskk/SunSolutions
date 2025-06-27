@@ -1,8 +1,8 @@
 import NavBar from "../Components/NavBar";
 import Certifications from "../Components/Certifications";
 import Footer from "../Components/Footer";
-import eurostarMod from "../eurostar/eurostarMod.png";
-import eurostarSolars from "../eurostar/eurostarSolars.png";
+import eurostarMod from "../Images/eurostar/eurostarMod.png";
+import eurostarSolars from "../Images/eurostar/eurostarSolars.png";
 
 function EurostarScreen() {
   return (

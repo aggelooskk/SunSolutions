@@ -1,10 +1,10 @@
 import NavBar from "../Components/NavBar";
 import Certifications from "../Components/Certifications";
 import Footer from "../Components/Footer";
-import ecosolars from "../eco/ecosolars.png";
-import ecomod from "../eco/ecomod.png";
-import ecosizes from "../eco/ecosizes.png";
-import ecospecs from "../eco/ecospecs.png";
+import ecosolars from "../Images/eco/ecosolars.png";
+import ecomod from "../Images/eco/ecomod.png";
+import ecosizes from "../Images/eco/ecosizes.png";
+import ecospecs from "../Images/eco/ecospecs.png";
 
 function EcoScreen() {
   return (

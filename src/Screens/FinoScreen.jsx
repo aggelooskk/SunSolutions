@@ -1,7 +1,7 @@
 import NavBar from "../Components/NavBar";
 import Certifications from "../Components/Certifications";
 import Footer from "../Components/Footer";
-import finoSolars from "../fino/finosSolars.png";
+import finoSolars from "../Images/fino/finoSolars.png"
 
 function FinoScreen() {
   return (
