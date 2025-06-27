@@ -3,7 +3,7 @@ import Certifications from "../Components/Certifications";
 import Footer from "../Components/Footer";
 import ecosolars from "../eco/ecosolars.png";
 import ecomod from "../eco/ecomod.png";
-import ecosizes from "../eco/scosizes.png";
+import ecosizes from "../eco/ecosizes.png";
 import ecospecs from "../eco/ecospecs.png";
 
 function EcoScreen() {
