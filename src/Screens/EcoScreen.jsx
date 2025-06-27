@@ -2,7 +2,6 @@ import NavBar from "../Components/NavBar";
 import Certifications from "../Components/Certifications";
 import Footer from "../Components/Footer";
 import EcoSolars from "../Images/eco/EcoSolars.png";
-import EcoMod from "../Images/eco/EcoMod.png"
 import EcoSizes from "../Images/eco/EcoSizes.png";
 import EcoSpecs from "../Images/eco/EcoSpecs.png";
 
@@ -127,10 +126,6 @@ function EcoScreen() {
         </div>
         <div className="flex justify-start my-5">
           <img src={EcoSizes} alt="EcoSizes" />
-        </div>
-
-        <div className="flex justify-start my-7">
-          <img src={EcoMod} alt="EcoMod" />
         </div>
       </div>
       <Certifications />
