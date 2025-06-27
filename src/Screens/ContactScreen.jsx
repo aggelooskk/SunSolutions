@@ -1,6 +1,6 @@
 import { useRef } from "react";
 import { useNavigate } from "react-router-dom";
-import emailjs from "emailjs-com";
+import emailjs from "@emailjs/browser";
 import { toast } from "react-toastify";
 import NavBar from "../Components/NavBar";
 import Footer from "../Components/Footer";
