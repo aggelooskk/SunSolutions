@@ -3,7 +3,7 @@ import Certifications from "../Components/Certifications";
 import Footer from "../Components/Footer";
 import EcoSolars from "../Images/eco/EcoSolars.png";
 import EcoMod from "../Images/eco/EcoMod.png";
-import EcoSize from "../Images/eco/EcoSizes.png";
+import EcoSizes from "../Images/eco/EcoSizes.png";
 import EcoSpecs from "../Images/eco/EcoSpecs.png";
 
 function EcoScreen() {
@@ -126,7 +126,7 @@ function EcoScreen() {
           </h1>
         </div>
         <div className="flex justify-start my-5">
-          <img src={EcoSize} alt="EcoSizes" />
+          <img src={EcoSizes} alt="EcoSizes" />
         </div>
         <div className="flex justify-start my-5">
           <img src={EcoMod} alt="EcoSizes" />
