@@ -75,11 +75,21 @@ function Footer() {
                 <li className=" hover:text-orange-400 transition-colors duration-200 font-sans">
                   📍 Athens, Fedriadon 120, 113 64
                 </li>
-                <li className="hover:text-orange-400 transition-colors duration-200 font-sans">
-                  ✉️ info@sunsolutions.gr
+                <li>
+                  <a
+                    href="mailto:info@sunsolutions.gr"
+                    className="hover:text-orange-400 transition-colors duration-200 font-sans"
+                  >
+                    ✉️ info@sunsolutions.gr
+                  </a>
                 </li>
-                <li className="hover:text-orange-400 transition-colors duration-200 font-sans">
-                  📞 +30 693 246 2414
+                <li>
+                  <a
+                    href="tel:+306932462414"
+                    className="hover:text-orange-400 transition-colors duration-200 font-sans"
+                  >
+                    📞 +30 693 246 2414
+                  </a>
                 </li>
               </ul>
             </div>
