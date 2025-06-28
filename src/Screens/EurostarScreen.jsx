@@ -21,7 +21,7 @@ function EurostarScreen() {
         </div>
 
         {/* Description Section */}
-        <div className="p-6 shadow-sm bg-white border-gray-100">
+        <div className="p-5 shadow-sm bg-white border-gray-100">
           <div className="text-black space-y-4">
             <li>
               Ο ηλιακός θερμοσίφωνας EUROSTAR έχει σχεδιαστεί και κατασκευαστεί
@@ -60,7 +60,7 @@ function EurostarScreen() {
             Πλεονεκτήματα
           </h1>
         </div>
-        <div className="p-6 shadow-sm bg-white border-gray-100 ">
+        <div className="p-5 shadow-sm bg-white border-gray-100 ">
           <ul className="list-disc list-inside text-black space-y-2 ml-2">
             <li>
               Απλή Εγκατάσταση στα Κεραμίδια — Με τις ειδικές βάσεις του, το
@@ -82,7 +82,7 @@ function EurostarScreen() {
             Τεχνικά Χαρακτηριστικά Boiler
           </h1>
         </div>
-        <div className="p-6 shadow-sm bg-white border-gray-100">
+        <div className="p-5 shadow-sm bg-white border-gray-100">
           <p className="text-black mb-4">
             Πλαίσιο ηλιακού συλλέκτη από ειδικά σχεδιασμένο χυτό προφίλ
             αλουμινίου, επεξεργασμένο με ηλεκτροστατική βαφή φούρνου, χωρίς
@@ -122,7 +122,7 @@ function EurostarScreen() {
             Τεχνικά Χαρακτηριστικά Ηλιακού Συλλέκτη
           </h1>
         </div>
-        <div className="p-6 shadow-sm bg-white border-gray-100">
+        <div className="p-5 shadow-sm bg-white border-gray-100">
           <p className="text-black mb-4">
             Πλαίσιο ηλιακού συλλέκτη από ειδικά σχεδιασμένο χυτό προφίλ
             αλουμινίου, επεξεργασμένο με ηλεκτροστατική βαφή φούρνου, χωρίς

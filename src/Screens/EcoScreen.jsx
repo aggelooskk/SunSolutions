@@ -23,7 +23,7 @@ function EcoScreen() {
         </div>
 
         {/* Iliothermo ECO Description */}
-        <div className="p-6 shadow-sm bg-white border-gray-100 ">
+        <div className="p-5 shadow-sm bg-white border-gray-100 ">
           <div className="text-black space-y-4">
             <p>
               Οι γνωστοί ηλιακοί θερμοσίφωνες “Ηλιόθερμο ECO”, από το 1974,
@@ -44,7 +44,7 @@ function EcoScreen() {
             Πλεονεκτήματα
           </h1>
         </div>
-        <div className="p-6 shadow-sm bg-white border-gray-100 hover:scale-105">
+        <div className="p-5 shadow-sm bg-white border-gray-100 hover:scale-105">
           <ul className="list-disc list-inside text-black space-y-2 ml-2">
             <li>
               Το μόνο με ηλεκτρονικό θερμόμετρο (προαιρετικό) — Σας δείχνει
@@ -70,7 +70,7 @@ function EcoScreen() {
             Τεχνικά Χαρακτηριστικά
           </h1>
         </div>
-        <div className="p-6 shadow-sm bg-white border-gray-100 ">
+        <div className="p-5 shadow-sm bg-white border-gray-100 ">
           <ol className="list-decimal list-inside text-black space-y-4 ml-2">
             <li>
               Boiler από ευρωπαϊκό χαλυβδοέλασμα για μεγάλη διάρκεια ζωής.

@@ -21,7 +21,7 @@ function FinoScreen() {
         </div>
 
         {/* Description */}
-        <div className="p-6 shadow-sm bg-white border-gray-100 ">
+        <div className="p-5 shadow-sm bg-white border-gray-100 ">
           <div className="text-black space-y-4">
             <li>
               Ο ηλιακός θερμοσίφωνας EUROSTAR FINO έχει σχεδιαστεί και
@@ -50,7 +50,7 @@ function FinoScreen() {
             Τεχνικά Χαρακτηριστικά Boiler
           </h1>
         </div>
-        <div className="p-6 shadow-sm bg-white border-gray-100 ">
+        <div className="p-5 shadow-sm bg-white border-gray-100 ">
           <ol className="list-decimal list-inside text-black space-y-4 ml-2">
             <li>
               Εξωτερικό περίβλημα από ανοξείδωτο ατσάλι ΙΝΟΧ ή χάλυβα
@@ -86,7 +86,7 @@ function FinoScreen() {
             Πλεονεκτήματα
           </h1>
         </div>
-        <div className="p-6 shadow-sm bg-white border-gray-100 ">
+        <div className="p-5 shadow-sm bg-white border-gray-100 ">
           <ul className="list-disc list-inside text-black space-y-2 ml-2">
             <li>Απλή εγκατάσταση σε επίπεδη σκεπή σε ελάχιστο χρόνο.</li>
             <li>Συνδέεται και με Καλοριφέρ (προαιρετικά).</li>
@@ -99,7 +99,7 @@ function FinoScreen() {
             Τεχνικά Χαρακτηριστικά Ηλιακού Συλλέκτη
           </h1>
         </div>
-        <div className="p-6 shadow-sm bg-white border-gray-100 ">
+        <div className="p-5 shadow-sm bg-white border-gray-100 ">
           <ol className="list-decimal list-inside text-black space-y-4 ml-2">
             <li>
               Πλαίσιο από χυτό προφίλ αλουμινίου με ηλεκτροστατική βαφή, χωρίς
