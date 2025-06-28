@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import images from "../carousel.json";
+import images from "../carousel";
 
 function SolarCarousel() {
   const [currentIndex, setCurrentIndex] = useState(0);

@@ -1,8 +1,7 @@
-import React from "react";
 import Header from "../Components/Header";
 import SolarCard from "../Components/SolarCard";
 import Footer from "../Components/Footer";
-import card from "../card.json";
+import card from "../card"
 import SolarCarousel from "../Components/SolarCarousel";
 import Certifications from "../Components/Certifications";
 

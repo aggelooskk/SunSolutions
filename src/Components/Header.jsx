@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
+import burjKhalifa from "../Images/random/burjkhalifa.png";
 
 function Header() {
   const [isOpen, setIsOpen] = useState(false);
@@ -9,7 +10,7 @@ function Header() {
       <header className="relative h-screen w-screen">
         <div
           className="absolute inset-0 bg-cover bg-center"
-          style={{ backgroundImage: "url('/burjkhalifa.png')" }}
+          style={{ backgroundImage: `url(${burjKhalifa})` }}
         ></div>
         <div className="absolute inset-0 bg-gray-500 bg-opacity-40"></div>
         {/* Center-left overlay text */}
