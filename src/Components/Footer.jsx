@@ -76,7 +76,7 @@ function Footer() {
                   📍 Athens, Fedriadon 120, 113 64
                 </li>
                 <li className="hover:text-orange-400 transition-colors duration-200 font-sans">
-                  ✉️ info@example.com
+                  ✉️ info@sunsolutions.gr
                 </li>
                 <li className="hover:text-orange-400 transition-colors duration-200 font-sans">
                   📞 +30 693 246 2414
