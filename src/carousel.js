@@ -1,4 +1,4 @@
-import img6832 from "./Images/carousel/IMG_6832.JPEG";
+import img6832 from "./Images/carousel/IMG_6832.JPEG"
 import img5492 from "./Images/carousel/IMG_5492.JPEG";
 import img6830 from "./Images/carousel/IMG_6830.JPEG";
 import img8573 from "./Images/carousel/IMG_8573.JPEG";
