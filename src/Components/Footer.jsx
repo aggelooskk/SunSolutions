@@ -38,7 +38,7 @@ function Footer() {
           <div className="grid grid-cols-2 gap-8">
             <div>
               <h5 className="text-lg font-mono mb-2  hover:text-orange-400 transition-colors duration-200">
-                PRODUCTS
+                ΠΡΟΙΟΝΤΑ
               </h5>
               <ul className="space-y-1 text-md font-sans text-gray-300">
                 <li>
@@ -69,7 +69,7 @@ function Footer() {
             </div>
             <div>
               <h5 className="text-lg font-mono mb-2 hover:text-orange-400 transition-colors duration-200">
-                CONTACT
+                ΕΠΙΚΟΙΝΩΝΙΑ
               </h5>
               <ul className="space-y-1 text-sm font-sans text-gray-300">
                 <li className=" hover:text-orange-400 transition-colors duration-200 font-sans">
