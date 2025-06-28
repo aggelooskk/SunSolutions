@@ -1,71 +1,128 @@
-# Getting Started with Create React App
+# SunSolutions
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+SunSolutions is a modern, responsive website for a solar water heater company. It showcases products, certifications, and allows users to contact the company for more information. Built with React, Vite, and Tailwind CSS, it is optimized for fast performance and easy deployment.
+
+---
+
+## Getting Started
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), but is now migrated to Vite for faster builds and modern tooling.
+
+### Prerequisites
+
+- [Node.js](https://nodejs.org/) (v18 or newer recommended)
+- [npm](https://www.npmjs.com/) (comes with Node.js)
+
+### Installation
+
+1. **Clone the repository:**
+
+   ```sh
+   git clone https://github.com/your-username/SunSolutions.git
+   cd SunSolutions
+   ```
+
+2. **Install dependencies:**
+
+   ```sh
+   npm install
+   ```
+
+3. **Set up environment variables:**
+
+   Create a `.env` file in the root directory with the following (replace with your actual EmailJS keys):
+
+   ```
+   VITE_SERVICE_ID=your_service_id
+   VITE_TEMPLATE_ID=your_template_id
+   VITE_PUBLIC_KEY=your_public_key
+   ```
+
+---
 
 ## Available Scripts
 
 In the project directory, you can run:
 
-### `npm start`
+### `npm run dev`
 
-Runs the app in the development mode.\
+Runs the app in development mode.  
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
+The page will reload when you make changes.  
 You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 ### `npm run build`
 
-Builds the app for production to the `build` folder.\
+Builds the app for production to the `dist` folder.  
 It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### `npm run preview`
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Serves the production build locally for preview.
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Project Structure
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```
+src/
+  Components/      # Reusable UI components (NavBar, Footer, SolarCard, etc.)
+  Screens/         # Main pages (HomeScreen, EurostarScreen, EcoScreen, FinoScreen, ContactScreen)
+  Images/          # Product and UI images (organized by product)
+  App.jsx          # Main app component with routing
+  main.jsx         # Entry point
+public/
+  ...              # Static assets (favicon, robots.txt, etc.)
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+---
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Deployment
 
-## Learn More
+This project is ready for deployment on [Vercel](https://vercel.com/) or any static host.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+**To deploy on Vercel:**
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+1. Push your code to GitHub/GitLab/Bitbucket.
+2. Import your repo in Vercel.
+3. Set the build command to `npm run build` and output directory to `dist`.
+4. Add your environment variables in the Vercel dashboard.
+5. Deploy!
 
-### Code Splitting
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Contact Form
 
-### Analyzing the Bundle Size
+The contact form uses [EmailJS](https://www.emailjs.com/).  
+Set your EmailJS keys in the `.env` file or in your Vercel environment variables.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+---
 
-### Making a Progressive Web App
+## Styling
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- [Tailwind CSS](https://tailwindcss.com/) is used for all styling.
+- Responsive design for mobile, tablet, and desktop.
 
-### Advanced Configuration
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Technologies Used
 
-### Deployment
+- [React](https://reactjs.org/)
+- [Vite](https://vitejs.dev/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [React Router](https://reactrouter.com/)
+- [EmailJS](https://www.emailjs.com/)
+- [Vercel](https://vercel.com/) (for deployment)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+---
 
-### `npm run build` fails to minify
+## License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# SunSolutions
+This project is licensed under the MIT License.
+
+---
+
+## Acknowledgements
+
+- Product images and content
