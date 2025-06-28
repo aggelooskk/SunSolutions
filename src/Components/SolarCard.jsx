@@ -15,7 +15,7 @@ function SolarCard({ name, description, image, route }) {
           to={route}
           className="mt-auto px-4 py-2 border border-gray-800 text-gray-800 hover:bg-orange-400 hover:text-black transition-colors duration-200 rounded-xl shadow-md"
         >
-          Περισσότερα
+          Περισσότερα...
         </Link>
       </div>
     </>
