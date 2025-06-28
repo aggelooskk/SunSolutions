@@ -100,9 +100,9 @@ function TermsAndConditions() {
           Για οποιαδήποτε ερώτηση ή αίτημα, μπορείτε να επικοινωνήσετε μαζί μας:
         </p>
         <ul className="list-disc pl-5">
-          <li>Τηλέφωνο: 6932 462 414</li>
-          <li>Email: [email εδώ]</li>
-          <li>Website: [διεύθυνση ιστοσελίδας εδώ]</li>
+          <li>Τηλέφωνο: +30 6932 462 414</li>
+          <li>Email: info@sunsolutions.gr</li>
+          <li>Website: www.sunsolutions.gr</li>
         </ul>
       </section>
     </div>
