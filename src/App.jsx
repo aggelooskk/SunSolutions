@@ -11,17 +11,22 @@ import "react-toastify/dist/ReactToastify.css";
 
 function App() {
   return (
-    <>
+    <div className="h-dvh flex flex-col">
       <BrowserRouter>
-        <Routes>
-          <Route path="/" element={<HomeScreen />} />
-          <Route path="/contact" element={<ContactScreen />} />
-          <Route path="/eurostar" element={<EurostarScreen />} />
-          <Route path="/fino" element={<FinoScreen />} />
-          <Route path="/eco" element={<EcoScreen />} />
-          <Route path="/terms&conditions" element={<TermsConditionsScreen />} />
-          <Route path="/cookiepolicy" element={<CookiePolicyScreen />} />
-        </Routes>
+        <main className="flex-grow overflow-y-auto">
+          <Routes>
+            <Route path="/" element={<HomeScreen />} />
+            <Route path="/contact" element={<ContactScreen />} />
+            <Route path="/eurostar" element={<EurostarScreen />} />
+            <Route path="/fino" element={<FinoScreen />} />
+            <Route path="/eco" element={<EcoScreen />} />
+            <Route
+              path="/terms&conditions"
+              element={<TermsConditionsScreen />}
+            />
+            <Route path="/cookiepolicy" element={<CookiePolicyScreen />} />
+          </Routes>
+        </main>
       </BrowserRouter>
       <ToastContainer
         position="top-right"
@@ -33,7 +38,7 @@ function App() {
         draggable
         pauseOnHover
       />
-    </>
+    </div>
   );
 }
 
