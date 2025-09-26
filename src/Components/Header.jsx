@@ -16,9 +16,9 @@ function Header() {
         {/* Center-left overlay text */}
         <div className="flex items-center justify-center w-fit h-full mx-3 ">
           <span className="text-white text-2xl sm:text-3xl md:text-4xl lg:text-4xl drop-shadow-xl font-sans ">
-            <strong className="text-orange-400 font-bold">Αξιοπιστία,</strong>{" "}
-            <strong className="text-orange-400 font-bold">οικονομία</strong> και{" "}
-            <strong className="text-orange-400 font-bold">οικολογική</strong>{" "}
+            <strong>Αξιοπιστία,</strong>{" "}
+            <strong className="text-orange-500 font-bold">οικονομία</strong> και{" "}
+            <strong className="text-orange-500 font-bold">οικολογική</strong>{" "}
             λύση για κάθε σπίτι.
           </span>
         </div>
